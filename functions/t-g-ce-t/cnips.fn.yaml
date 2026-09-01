@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: t-g-ce-t
-spec:
-    runtime: js
-    description: Test desc
-    signatureVersion: v2
-    templateVersion: V2

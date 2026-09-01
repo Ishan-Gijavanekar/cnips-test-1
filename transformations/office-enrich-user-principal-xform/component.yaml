@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: Office-Enrich-user-principal-xform
-spec:
-    type: transformation
-    language: javascript
-    signatureVersion: v1

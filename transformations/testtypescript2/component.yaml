@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: testtypescript2
-spec:
-    type: transformation
-    language: javascript
-    signatureVersion: v3

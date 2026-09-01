@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: t-g-sc-py
-spec:
-    type: source
-    sourceType: STANDARD
-    apiAccessRef: cd707a64-2eb2-4f47-a0fb-0eef22906ef0

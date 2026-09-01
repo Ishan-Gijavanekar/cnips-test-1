@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: Office Platform
-spec:
-    type: decision
-    language: golang
-    description: Decide the Office Platform
-    signatureVersion: v2

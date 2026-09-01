@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: js source extractor
-spec:
-    type: source
-    language: javascript
-    apiAccessRef: 87ced651-d8cb-4959-b913-65c41136f4cf
-    signatureVersion: v1

@@ -1,7 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: src-special-char-rename
-spec:
-    type: source
-    apiAccessRef: e8d92590-ec23-43f8-ab60-d299f74e5c08

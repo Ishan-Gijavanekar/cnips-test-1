@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: '[WidasEnt]Logging Event'
-spec:
-    type: destination
-    language: golang
-    description: Component for logging the event
-    signatureVersion: v2

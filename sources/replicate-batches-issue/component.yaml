@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: replicate-batches issue
-spec:
-    type: source
-    language: javascript
-    apiAccessRef: 66d10dae-367d-47b9-b983-88b76aa250d8
-    signatureVersion: v1

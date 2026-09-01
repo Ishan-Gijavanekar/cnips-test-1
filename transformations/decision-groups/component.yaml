@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: DECISION_GROUPS
-spec:
-    type: decision
-    language: javascript
-    signatureVersion: v1

@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: t-g-err-t2
-spec:
-    type: source
-    sourceType: STANDARD
-    description: ssadc
-    apiAccessRef: 983f7ceb-c47d-458f-a899-c656909e1fd9

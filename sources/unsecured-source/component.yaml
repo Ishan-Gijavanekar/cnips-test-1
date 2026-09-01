@@ -1,6 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: unsecured source
-spec:
-    type: source

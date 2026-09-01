@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: src-err-processing-9aad29d2
-spec:
-    type: source
-    sourceType: STANDARD
-    apiAccessRef: 155b0ec7-dfc5-4b2a-b994-62535a2b375a

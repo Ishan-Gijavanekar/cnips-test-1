@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: timestamp-augmenter
-spec:
-    runtime: go
-    description: Create a function that adds a timestamp field to incoming JSON data. Use Go language.
-    signatureVersion: v2
-    templateVersion: V2

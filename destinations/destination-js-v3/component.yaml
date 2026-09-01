@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: destination-js-v3
-spec:
-    type: destination
-    language: javascript
-    description: Destination -Js-V3
-    signatureVersion: v3

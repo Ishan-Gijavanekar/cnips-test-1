@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: test-appr-yannick
-spec:
-    type: destination
-    language: golang
-    signatureVersion: v2

@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: lint-test-001
-spec:
-    type: transformation
-    language: python
-    signatureVersion: v1

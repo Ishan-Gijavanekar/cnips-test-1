@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: ash func test 1
-spec:
-    runtime: js
-    apiAccessRef: 81c76369-5da3-440d-9115-62646f22c5d5
-    signatureVersion: v1
-    templateVersion: V1

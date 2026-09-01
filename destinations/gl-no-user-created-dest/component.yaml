@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: GL_NO_USER_CREATED_DEST
-spec:
-    type: destination
-    language: javascript
-    signatureVersion: v1

@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: webhook-forwarder
-spec:
-    type: destination
-    language: golang
-    description: Create a destination that takes an incoming event JSON and sends it as a POST request to a webhook URL configured in config
-    signatureVersion: v2

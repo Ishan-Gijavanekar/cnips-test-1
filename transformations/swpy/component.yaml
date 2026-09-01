@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: swpy
-spec:
-    type: switch
-    language: python
-    description: Switch py
-    signatureVersion: v1

@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: test gibcen_copy_copy_copy
-spec:
-    type: destination
-    language: golang
-    signatureVersion: v1

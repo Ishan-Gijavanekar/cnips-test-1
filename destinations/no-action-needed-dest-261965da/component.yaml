@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: NO_ACTION_NEEDED_DEST-261965da
-spec:
-    type: destination
-    language: javascript
-    signatureVersion: v1

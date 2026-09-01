@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: test-batch-ingestion-gk
-spec:
-    type: source
-    language: golang
-    apiAccessRef: ed454f34-441a-4d63-beb9-7fdcb96fe1d4
-    signatureVersion: v1

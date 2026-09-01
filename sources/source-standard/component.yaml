@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: Source-Standard
-spec:
-    type: source
-    sourceType: STANDARD
-    description: This is source created with source type as standard
-    apiAccessRef: 01f7dbce-15b2-4b30-bcf5-77e8cff41725

@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: Source-Python-Extractor-v1_clone
-spec:
-    type: source
-    sourceType: STANDARD
-    description: Source-Python-Extractor-v1
-    apiAccessRef: 9ea982db-1b88-4dcf-a774-7212c18dd58e

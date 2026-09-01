@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: test-fin
-spec:
-    runtime: js
-    apiAccessRef: 195c75b9-e63e-4d83-8ff6-8cafe45b25c9
-    signatureVersion: v2
-    templateVersion: V2

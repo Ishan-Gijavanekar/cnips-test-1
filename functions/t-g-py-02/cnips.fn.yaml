@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: t-g-py-02
-spec:
-    runtime: python
-    apiAccessRef: 983f7ceb-c47d-458f-a899-c656909e1fd9
-    signatureVersion: v1
-    templateVersion: V1

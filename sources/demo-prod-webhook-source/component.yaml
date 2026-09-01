@@ -1,7 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: demo-prod-webhook-source
-spec:
-    type: source
-    apiAccessRef: cb84c45c-396c-4ed2-bae1-7d5474b53bd9

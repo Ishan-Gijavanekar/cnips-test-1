@@ -1,9 +1,0 @@
-
-from log import Logger
-
-
-async def execute(event: dict, config: dict[str, str], vars: dict[str, str], logger: Logger):
-    logger.info("incoming config = {}", config)
-    logger.info("incoming vars = {}", vars)
-    a = 10
-    return event, vars

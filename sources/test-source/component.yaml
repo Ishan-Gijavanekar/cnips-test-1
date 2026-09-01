@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: test source
-spec:
-    type: source
-    language: javascript
-    apiAccessRef: 1d196690-7d0b-4533-ae31-dcf61e19d42e
-    signatureVersion: v1

@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: py-log-dest-v2
-spec:
-    type: destination
-    language: python
-    signatureVersion: v1

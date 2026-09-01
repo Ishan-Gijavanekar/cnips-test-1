@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: test-ash-2000000
-spec:
-    runtime: js
-    apiAccessRef: 57282815-78ac-4f00-aba9-4808eb457331
-    signatureVersion: v3
-    templateVersion: V3

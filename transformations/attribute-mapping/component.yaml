@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: Attribute mapping
-spec:
-    type: transformation
-    language: golang
-    description: created for manu m
-    signatureVersion: v2

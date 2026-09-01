@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: FAAS with API Access Gen Oauth2
-spec:
-    runtime: js
-    apiAccessRef: 6a60b31a-7921-401c-884c-297148df5475
-    signatureVersion: v1
-    templateVersion: V1

@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: javascript-82bf1cd0-cb6a-4183-a473-ff361d3695d0
-spec:
-    type: destination
-    language: javascript
-    signatureVersion: v1

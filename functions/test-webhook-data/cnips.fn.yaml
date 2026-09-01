@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: test-webhook-data
-spec:
-    runtime: js
-    apiAccessRef: a9ae346b-2ffb-4958-8da0-61cd2ce0eed0
-    signatureVersion: v1
-    templateVersion: V1
