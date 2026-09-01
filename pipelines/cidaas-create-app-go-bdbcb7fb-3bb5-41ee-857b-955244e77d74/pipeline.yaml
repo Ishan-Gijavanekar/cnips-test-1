@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: Cidaas - Create App Go-bdbcb7fb-3bb5-41ee-857b-955244e77d74
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: golang-899fbec5-05d0-47ee-873d-e072ecd4cd6c
+          uses: transformation/golang-e995e6c5-5b0a-49ca-b67e-d615661654b3@latest
+        - id: golang-899fbec5-05d0-47ee-873d-e072ecd4cd6c
+          uses: transformation/golang-899fbec5-05d0-47ee-873d-e072ecd4cd6c@latest

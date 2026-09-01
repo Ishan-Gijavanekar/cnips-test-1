@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: GL-DEST-DELETE-USER-50dfc84f
+spec:
+    type: destination
+    language: javascript
+    config:
+        gitlab_token: '[REDACTED]'
+        gitlab_url: '[REDACTED]'
+    signatureVersion: v1

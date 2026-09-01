@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Microsoft 365
+spec:
+    type: destination
+    language: javascript
+    description: Send Data to M365
+    signatureVersion: v3

@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: weather-by-location
+spec:
+    runtime: go
+    description: Parses a JSON request containing a location and returns a deterministic weather summary using configurable defaults.
+    config:
+        basetemperature: "20"
+        defaultcondition: sunny
+    signatureVersion: v2
+    templateVersion: V2

@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: chech-src-testtt
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: javascript
+    description: This is for the test
+    apiAccessRef: 8dc47c84-bf38-49a9-95e0-46d1dec563a2
+    signatureVersion: v2

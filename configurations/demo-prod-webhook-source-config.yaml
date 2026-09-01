@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: cb84c45c-396c-4ed2-bae1-7d5474b53bd9
+    name: demo-prod-webhook-source-config
+    description: demo-prod-webhook-source-config
+spec:
+    type: APIAccess
+    ref: cb84c45c-396c-4ed2-bae1-7d5474b53bd9
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: '[REDACTED]'
+            apikey_placeholder: '[REDACTED]'
+            apikey_placement: '[REDACTED]'

@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: hello2
+spec:
+    runtime: js
+    config:
+        foo: bar
+    apiAccessRef: 8c688170-7880-4d8f-82fe-7249e4cec6df
+    signatureVersion: v3
+    templateVersion: V3

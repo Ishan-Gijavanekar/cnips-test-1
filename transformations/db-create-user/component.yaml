@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: DB_CREATE_USER
+spec:
+    type: decision
+    language: javascript
+    signatureVersion: v1

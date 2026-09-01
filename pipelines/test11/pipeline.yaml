@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test11
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: deet1-err-processing-1cdfb1d3
+          uses: transformation/test1111@latest
+        - id: deet1-err-processing-1cdfb1d3
+          uses: transformation/test-latest-version-with-notification@latest
+        - id: deet1-err-processing-1cdfb1d3
+          uses: transformation/cidaas-get-group-js-38f79ab6@latest
+        - id: deet1-err-processing-1cdfb1d3
+          uses: transformation/deet1-err-processing-1cdfb1d3@latest

@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: tx-demo-2
+spec:
+    type: transformation
+    language: javascript
+    signatureVersion: v3

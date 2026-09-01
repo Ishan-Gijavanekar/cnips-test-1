@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 569f9728-3144-4a64-bd39-71eae990014c
+    name: apikey-1-e990014c
+    description: Simple APIKEY In Query
+spec:
+    type: APIAccess
+    ref: 569f9728-3144-4a64-bd39-71eae990014c
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: '[REDACTED]'
+            apikey_placeholder: '[REDACTED]'
+            apikey_placement: '[REDACTED]'

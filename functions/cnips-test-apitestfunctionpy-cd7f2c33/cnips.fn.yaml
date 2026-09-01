@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: cnips-test-apitestfunctionpy-cd7f2c33
+spec:
+    runtime: python
+    description: apitest function — auto-generated
+    templateVersion: V1

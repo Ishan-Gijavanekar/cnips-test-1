@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 031ddcc1-8b58-4fad-8c72-86628f86e408
+    name: ＜img src=x onerror=prompt()＞
+    description: Description Configurations
+spec:
+    type: APIAccess
+    ref: 031ddcc1-8b58-4fad-8c72-86628f86e408
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: app_9f3a2c7b1d84e6
+            client_secret: '[REDACTED]'
+            req_scopes: Automation Scope
+            wellknownUrl: https://dev.cnips.eu/components

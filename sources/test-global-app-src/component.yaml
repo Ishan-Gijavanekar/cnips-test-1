@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test-global-app-src
+spec:
+    type: source
+    sourceType: STANDARD
+    apiAccessRef: bfe8dfc2-0f52-440b-bf47-e8b7973966ee

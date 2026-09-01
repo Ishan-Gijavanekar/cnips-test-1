@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: std-src
+spec:
+    type: source
+    sourceType: STANDARD
+    apiAccessRef: 61864a12-174c-4bbb-8cb8-a357be1f4c32

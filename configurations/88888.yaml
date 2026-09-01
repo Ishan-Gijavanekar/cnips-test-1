@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: db7f2b17-a2e8-409c-851f-652ac272a25b
+    name: "88888"
+    description: "234234234"
+spec:
+    type: APIAccess
+    ref: db7f2b17-a2e8-409c-851f-652ac272a25b
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: '[REDACTED]'
+            apikey_placeholder: '[REDACTED]'
+            apikey_placement: '[REDACTED]'

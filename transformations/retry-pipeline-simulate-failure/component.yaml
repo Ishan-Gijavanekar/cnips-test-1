@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: retry pipeline - simulate failure
+spec:
+    type: transformation
+    language: golang
+    signatureVersion: v1

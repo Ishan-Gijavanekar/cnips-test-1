@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: ash go
+spec:
+    type: transformation
+    language: golang
+    signatureVersion: v1

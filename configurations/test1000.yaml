@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: c0f206ae-5a1c-4592-9291-b6e80f168f5e
+    name: test1000
+    description: "123"
+spec:
+    type: APIAccess
+    ref: c0f206ae-5a1c-4592-9291-b6e80f168f5e
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: '[REDACTED]'
+            apikey_placeholder: '[REDACTED]'
+            apikey_placement: '[REDACTED]'

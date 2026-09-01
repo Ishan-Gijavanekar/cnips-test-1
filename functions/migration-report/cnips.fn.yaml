@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: migration-report
+spec:
+    runtime: go
+    config:
+        migration_report_key: ZmFjN2E3ZTYtMzU3Yi00MWU1LTk2ZjctNDZmZmZjZWUwZjM1OjRkaTNIZ2VBOTVMRmk3NGJKSmotdnc
+        notification_url: https://widasconcepts.webhook.office.com/webhookb2/f5a5d5b6-6c6e-4b47-bf78-d6bdffe385b0@8a221f56-ae85-449e-aa84-4211a58f5715/IncomingWebhook/56cd5403c7704616944f57be113f66ef/dfbcc988-caa9-41b7-b20a-9612a1f9f2ce/V2yY6q0i4yAvBxHAIfiUvly4XJSzKorjWyL3No1hJyQCo1
+        table_base_url: https://dev.cnips.eu
+        tableId: b0cc1288-cb42-427c-a328-a1c0a3ff2ac7
+    signatureVersion: V2
+    templateVersion: V2

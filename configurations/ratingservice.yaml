@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 41695003-353a-4c01-83d0-7231a817e713
+    name: ratingservice
+spec:
+    type: APIAccess
+    ref: 41695003-353a-4c01-83d0-7231a817e713
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: '[REDACTED]'
+            apikey_placeholder: '[REDACTED]'
+            apikey_placement: '[REDACTED]'

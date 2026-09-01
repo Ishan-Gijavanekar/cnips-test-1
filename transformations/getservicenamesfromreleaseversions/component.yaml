@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: getServiceNamesFromReleaseVersions
+spec:
+    type: transformation
+    language: golang
+    config:
+        cmiBaseURL: https://cmi-dev.cidaas.com/management-srv/v5
+        cmiToken: '[REDACTED]'
+        releaseVersion: v3.101.10-alpha.6
+    signatureVersion: v2

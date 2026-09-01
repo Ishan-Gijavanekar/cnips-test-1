@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: a8fae28a-550e-436b-adae-730820ecd9d6
+    name: Configuration-CIDAAS OAUTH2
+    description: Configuration-CIDAAS OAUTH2
+spec:
+    type: APIAccess
+    ref: a8fae28a-550e-436b-adae-730820ecd9d6
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: "2132132"
+            client_secret: '[REDACTED]'
+            req_scopes: "213213"
+            wellknownUrl: https://hello.com

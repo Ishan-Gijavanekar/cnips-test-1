@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: pl-err-processing-75726d64
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: dest1-err-processing-ba353251
+          uses: transformation/src-err-processing-9aad29d2@latest
+        - id: dest1-err-processing-ba353251
+          uses: transformation/dest1-err-processing-ba353251@1.0.0

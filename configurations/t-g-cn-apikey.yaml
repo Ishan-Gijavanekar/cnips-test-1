@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: b5c17499-6c9b-4c86-bef9-872ef058ed9b
+    name: t-g-cn-apikey
+    description: test test
+spec:
+    type: APIAccess
+    ref: b5c17499-6c9b-4c86-bef9-872ef058ed9b
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: '[REDACTED]'
+            apikey_placeholder: '[REDACTED]'
+            apikey_placement: '[REDACTED]'

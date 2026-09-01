@@ -1,0 +1,18 @@
+apiVersion: cnips.io/v1
+kind: PipelineLayout
+positions:
+    8e93c144-4f61-422f-a958-7525502b24fb:
+        x: 12.5
+        "y": 203.125
+    92f12edb-d9c3-49b1-bf0b-2e39539fed56:
+        x: 760.25
+        "y": -54.5
+    d7ccd8b9-f7e4-419a-aad9-6ef4c87c9756:
+        x: 1479.5
+        "y": 63.625
+    e56b2c6e-9319-4acf-83d2-fd883205b282:
+        x: 1111.5
+        "y": -50
+    f13a6677-fe8e-46e8-8178-ae16df1bc256:
+        x: 366.25
+        "y": -44.625

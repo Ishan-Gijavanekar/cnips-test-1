@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: '[Cspace]Hubspot_CreateCompany'
+spec:
+    type: transformation
+    language: golang
+    description: Based on the customFields of a cidaasUser in the event a company in hubspot will be created and added to the event.
+    config:
+        hubspotBaseURL: '[REDACTED]'
+        hubspotToken: '[REDACTED]'
+    signatureVersion: v2

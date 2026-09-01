@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: t-g-fn-unsecure
+spec:
+    runtime: js
+    config:
+        td: fea
+    signatureVersion: v3
+    templateVersion: V3

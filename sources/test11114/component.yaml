@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test11114
+spec:
+    type: source
+    sourceType: STANDARD
+    description: update
+    apiAccessRef: 0eb5f87c-8cd1-4b35-8a4c-7b9b305ef3c2

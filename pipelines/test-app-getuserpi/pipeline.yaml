@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test-app-getuserpi
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: d1
+          uses: transformation/test1@latest
+        - id: d1
+          uses: transformation/create-user-using-app-x@latest
+        - id: d1
+          uses: transformation/d1@latest

@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: t-g-ui-sc-cron
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: javascript
+    config:
+        as: as
+    apiAccessRef: 983f7ceb-c47d-458f-a899-c656909e1fd9
+    signatureVersion: v2

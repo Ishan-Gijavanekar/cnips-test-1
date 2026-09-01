@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test7
+spec:
+    type: transformation
+    language: javascript
+    config:
+        test: ""
+    signatureVersion: v1

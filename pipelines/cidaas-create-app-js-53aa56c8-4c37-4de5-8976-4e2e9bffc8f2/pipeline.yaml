@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: Cidaas - Create App JS-53aa56c8-4c37-4de5-8976-4e2e9bffc8f2
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: javascript-26391eb2-e440-4c97-a3be-388c2dfb3076
+          uses: transformation/javascript-ce401bf5-a6a6-45cf-9c88-151c4b1e737b@latest
+        - id: javascript-26391eb2-e440-4c97-a3be-388c2dfb3076
+          uses: transformation/javascript-26391eb2-e440-4c97-a3be-388c2dfb3076@latest

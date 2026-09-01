@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: migration-rep
+spec:
+    runtime: js
+    config:
+        apiKey: '[REDACTED]'
+    signatureVersion: V3
+    templateVersion: V3

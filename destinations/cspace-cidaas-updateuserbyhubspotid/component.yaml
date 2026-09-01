@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: '[cspace]Cidaas_UpdateUserByHubspotID'
+spec:
+    type: destination
+    language: golang
+    description: Adds the HubspotID to the customFields of the cidaas user.
+    config:
+        cidaasBaseURL: https://qa.cidaas.de
+    signatureVersion: v2

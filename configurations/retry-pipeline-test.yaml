@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 13295459-9d80-415f-ab78-b27220f95829
+    name: retry pipeline test
+    description: test
+spec:
+    type: KeyValue
+    key: head
+    value: header
+    ref: 13295459-9d80-415f-ab78-b27220f95829
+    workspaceId: default
+    apiAccess:
+        apiAccessType: ""

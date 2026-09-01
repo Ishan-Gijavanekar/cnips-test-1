@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: "1"
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: faas-sl
+          uses: transformation/cidaas-account-created@latest
+        - id: faas-sl
+          uses: native/decision@1
+        - id: faas-sl
+          uses: transformation/js-charcount@1.0.0
+        - id: faas-sl
+          uses: transformation/faas-sl@1.0.0

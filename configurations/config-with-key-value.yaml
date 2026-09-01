@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: ce11b017-4312-4af4-a3d1-f74027c3ec47
+    name: Config with Key Value
+    description: This configuration details with configuration type as key value
+spec:
+    type: KeyValue
+    key: "1"
+    value: "2"
+    ref: ce11b017-4312-4af4-a3d1-f74027c3ec47
+    workspaceId: default
+    apiAccess:
+        apiAccessType: ""

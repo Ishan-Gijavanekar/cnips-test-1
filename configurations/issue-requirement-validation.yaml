@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: e50b9b6b-b0ba-454f-81b7-d67db95e0e99
+    name: Issue Requirement Validation
+spec:
+    type: APIAccess
+    ref: e50b9b6b-b0ba-454f-81b7-d67db95e0e99
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: '[REDACTED]'
+            apikey_placeholder: '[REDACTED]'
+            apikey_placement: '[REDACTED]'

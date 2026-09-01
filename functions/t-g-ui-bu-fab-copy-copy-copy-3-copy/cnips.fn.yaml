@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: t-g-ui-bu-fab (Copy)- (Copy) (Copy)3 (Copy)
+spec:
+    runtime: go
+    apiAccessRef: 983f7ceb-c47d-458f-a899-c656909e1fd9
+    signatureVersion: v2
+    templateVersion: V2

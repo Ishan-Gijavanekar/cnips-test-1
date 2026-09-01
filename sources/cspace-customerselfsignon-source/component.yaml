@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: '[Cspace]CustomerSelfSignOn_Source'
+spec:
+    type: source
+    sourceType: STANDARD
+    description: If a user did a self sign up on a specific client and verified his email, this source will be triggered.
+    apiAccessRef: 3b690c5e-b155-4c45-a360-21832fdf1fb0

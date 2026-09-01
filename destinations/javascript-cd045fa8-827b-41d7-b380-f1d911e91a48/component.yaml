@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: javascript-cd045fa8-827b-41d7-b380-f1d911e91a48
+spec:
+    type: destination
+    language: javascript
+    config:
+        base_url: https://widas-test.cidaas.eu
+        client_id: af2291a6-25d7-4b07-8230-f0803f6c1189
+        client_secret: '[REDACTED]'
+    signatureVersion: v2

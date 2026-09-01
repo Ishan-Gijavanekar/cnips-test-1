@@ -1,0 +1,7 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test script-4f16f9be
+spec:
+    language: javascript
+    signatureVersion: v1

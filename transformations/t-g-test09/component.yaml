@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: t-g-test09
+spec:
+    type: transformation
+    language: golang
+    description: asc
+    signatureVersion: v2

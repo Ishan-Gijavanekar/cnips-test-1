@@ -1,0 +1,18 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: g-t-ext-009
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: javascript
+    config:
+        "6": 445s
+        as: as
+        sds: sa
+        t: t2
+        t1: t2
+        t3: t33
+        te: eqw
+    apiAccessRef: 9c97b608-081a-45e2-93ea-95abe7e3d4eb
+    signatureVersion: v1

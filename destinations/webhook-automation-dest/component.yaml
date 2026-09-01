@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: webhook automation dest
+spec:
+    type: destination
+    language: golang
+    config:
+        pvt_token: '[REDACTED]'
+    signatureVersion: v2

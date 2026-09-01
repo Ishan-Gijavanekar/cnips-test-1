@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: ash position
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: js-dest-nosetip
+          uses: transformation/t-g-sc-13@latest
+        - id: js-dest-nosetip
+          uses: transformation/js-dest-nosetip@latest

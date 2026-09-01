@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: TEST-APP-JS-UPDATE-APP
+spec:
+    type: destination
+    language: javascript
+    signatureVersion: v1

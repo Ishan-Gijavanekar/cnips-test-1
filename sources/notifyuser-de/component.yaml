@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: notifyuser_de
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: javascript
+    apiAccessRef: 98d12766-159d-4ea2-82fe-375086ee6789
+    signatureVersion: v1

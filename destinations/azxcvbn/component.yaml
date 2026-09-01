@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: azxCVBN
+spec:
+    type: destination
+    language: javascript
+    description: c
+    config:
+        key: "344"
+    signatureVersion: v3

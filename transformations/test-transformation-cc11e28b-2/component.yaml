@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test-transformation-cc11e28b-2
+spec:
+    type: transformation
+    language: javascript
+    description: This is for the test1234
+    signatureVersion: v3

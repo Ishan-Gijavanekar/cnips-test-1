@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: ashashashash
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: javascript-f19fd653-39f3-4693-a9e5-d60f6286a539
+          uses: transformation/javascript-d1a1fff4-6da3-47cf-9046-0d8177f2bda2@latest
+        - id: javascript-f19fd653-39f3-4693-a9e5-d60f6286a539
+          uses: transformation/javascript-f19fd653-39f3-4693-a9e5-d60f6286a539@latest

@@ -1,0 +1,18 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: extractor-test-js
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: test-new-js
+          uses: transformation/test-new-js@latest
+        - id: test-new-js
+          uses: transformation/quota-usage-js@1.0.0
+        - id: test-new-js
+          uses: native/decision@1
+        - id: test-new-js
+          uses: transformation/cidaas-get-user-javascript-f1a450e5@1.0.0
+        - id: test-new-js
+          uses: transformation/test-new-js@1.0.0

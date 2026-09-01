@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: httpbin-post-destination
+spec:
+    type: destination
+    language: golang
+    description: Create a destination that sends the input payload as a JSON POST request to https://httpbin.org/post
+    signatureVersion: v2

@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: demo-53c36173
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: just-log-291b0666
+          uses: transformation/test-demo-e0d6e02e@latest
+        - id: just-log-291b0666
+          uses: transformation/return-dummy-data-245f3848@1.0.0
+        - id: just-log-291b0666
+          uses: transformation/just-log-291b0666@latest

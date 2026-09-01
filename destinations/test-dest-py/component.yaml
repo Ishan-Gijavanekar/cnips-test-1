@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test-dest-py
+spec:
+    type: destination
+    language: python
+    description: This is for the test1234
+    signatureVersion: v1

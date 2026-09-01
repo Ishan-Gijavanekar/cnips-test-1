@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: FAAS-JS-1
+spec:
+    runtime: js
+    apiAccessRef: 88ce6fb5-1841-4da4-9360-abddee82ef6c
+    signatureVersion: v1
+    templateVersion: V1

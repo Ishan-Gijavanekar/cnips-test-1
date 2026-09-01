@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 1b43a4c2-d5d3-49f4-8ec0-2d9a24c0b597
+    name: auto-function-access(1)
+spec:
+    type: APIAccess
+    ref: 1b43a4c2-d5d3-49f4-8ec0-2d9a24c0b597
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: '[REDACTED]'
+            apikey_placeholder: '[REDACTED]'
+            apikey_placement: '[REDACTED]'

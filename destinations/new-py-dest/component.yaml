@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: new py dest
+spec:
+    type: destination
+    language: python
+    signatureVersion: v1

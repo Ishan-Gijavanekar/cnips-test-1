@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 220b8cd6-99d3-4d81-9184-cdd3d2eb414e
+    name: configname
+    description: ASAs
+spec:
+    type: APIAccess
+    ref: 220b8cd6-99d3-4d81-9184-cdd3d2eb414e
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: uykfjkjh
+            client_secret: '[REDACTED]'

@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: FAAS-Python-V1
+spec:
+    runtime: python
+    apiAccessRef: d716c681-9793-4091-b2b8-dfc97c831812
+    signatureVersion: v1
+    templateVersion: V1

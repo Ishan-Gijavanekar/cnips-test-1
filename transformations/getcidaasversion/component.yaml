@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: GetCidaasVersion
+spec:
+    type: transformation
+    language: javascript
+    config:
+        cmi_dev_base_url: https://cmi-dev.cidaas.com
+        qa_base_url: https://qa.cidaas.de
+        qa_client_id: d13410a2-8606-4ea5-807a-656a42ba99b5
+        qa_client_secret: '[REDACTED]'
+    signatureVersion: v2

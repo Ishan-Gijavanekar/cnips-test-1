@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: fe388d89-7bef-4d46-b67a-8d5d31b7d5f9
+    name: API Access API Key
+    description: This is new configuration created for of configuration type API Access  and Access Type as API Key
+spec:
+    type: APIAccess
+    ref: fe388d89-7bef-4d46-b67a-8d5d31b7d5f9
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: '[REDACTED]'
+            apikey_placeholder: '[REDACTED]'
+            apikey_placement: '[REDACTED]'

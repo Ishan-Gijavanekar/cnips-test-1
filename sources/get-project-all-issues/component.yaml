@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Get  Project all Issues
+spec:
+    type: source
+    language: javascript
+    apiAccessRef: e50b9b6b-b0ba-454f-81b7-d67db95e0e99
+    signatureVersion: v1

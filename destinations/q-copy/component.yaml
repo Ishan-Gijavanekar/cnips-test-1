@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: q (Copy)
+spec:
+    type: destination
+    language: javascript
+    description: s
+    signatureVersion: v1

@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: issue-requirement-validation-source
+spec:
+    type: source
+    language: javascript
+    apiAccessRef: a31efaf5-05b4-45f4-bfac-ca220d2e2cd1
+    signatureVersion: v1

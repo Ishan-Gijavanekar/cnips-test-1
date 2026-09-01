@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: Function - Python- 13082025
+spec:
+    runtime: python
+    description: Function - Python- 13082025
+    config:
+        "1": "1"
+    apiAccessRef: b1240b36-a2ff-4d16-8cf9-32c4f54239a9
+    signatureVersion: v1
+    templateVersion: V1

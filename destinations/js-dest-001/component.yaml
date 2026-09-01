@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: js-dest-001
+spec:
+    type: destination
+    language: javascript
+    signatureVersion: v1
