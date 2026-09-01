@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: test-err-src
-spec:
-    type: source
-    sourceType: STANDARD
-    description: Testing automatic error processing
-    apiAccessRef: 195c75b9-e63e-4d83-8ff6-8cafe45b25c9

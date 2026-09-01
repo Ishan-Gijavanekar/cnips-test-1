@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: new decision by ash
-spec:
-    type: decision
-    language: javascript
-    description: description by ash
-    signatureVersion: v1

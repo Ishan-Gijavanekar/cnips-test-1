@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: GL_VALIDATE_USER_DB-e62f5cb9
-spec:
-    type: decision
-    language: javascript
-    signatureVersion: v1

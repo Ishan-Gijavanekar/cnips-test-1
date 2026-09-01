@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: cnips-test-apitestfunctionjs-0108412e
-spec:
-    runtime: js
-    description: apitest function — auto-generated
-    templateVersion: V3

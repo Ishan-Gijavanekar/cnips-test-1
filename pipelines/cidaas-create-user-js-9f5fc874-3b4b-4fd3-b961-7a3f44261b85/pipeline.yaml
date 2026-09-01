@@ -1,6 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Pipeline
-metadata:
-    name: Cidaas - Create User JS-9f5fc874-3b4b-4fd3-b961-7a3f44261b85
-spec:
-    steps: []

@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: go-uppercase_clone
-spec:
-    type: transformation
-    language: golang
-    signatureVersion: v1

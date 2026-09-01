@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: py-charcount-e868547e
-spec:
-    type: transformation
-    language: python
-    signatureVersion: v1

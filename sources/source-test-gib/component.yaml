@@ -1,7 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: source test gib
-spec:
-    type: source
-    apiAccessRef: 220b8cd6-99d3-4d81-9184-cdd3d2eb414e

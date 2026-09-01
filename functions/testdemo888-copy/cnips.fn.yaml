@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: testdemo888 (Copy)
-spec:
-    runtime: go
-    apiAccessRef: 25635e99-fffa-4dce-8413-6bddc0395cb4
-    signatureVersion: v2
-    templateVersion: V2

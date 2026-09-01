@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: Check-Transformation-v3
-spec:
-    type: transformation
-    language: javascript
-    description: This is just to test
-    signatureVersion: v3

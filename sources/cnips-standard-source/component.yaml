@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: cnips-standard-source
-spec:
-    type: source
-    sourceType: STANDARD
-    description: This is a demo description for standard source
-    apiAccessRef: f5d34c56-27c5-4e89-9afe-7dd99d1ad751

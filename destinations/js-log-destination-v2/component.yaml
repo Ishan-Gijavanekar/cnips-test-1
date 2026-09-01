@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: js-log-destination-v2
-spec:
-    type: destination
-    language: javascript
-    signatureVersion: v2

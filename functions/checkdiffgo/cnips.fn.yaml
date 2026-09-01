@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: checkdiffgo
-spec:
-    runtime: go
-    signatureVersion: v1
-    templateVersion: V1

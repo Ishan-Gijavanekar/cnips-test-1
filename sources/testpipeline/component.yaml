@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: TestPipeline
-spec:
-    type: source
-    sourceType: STANDARD
-    apiAccessRef: d716c681-9793-4091-b2b8-dfc97c831812

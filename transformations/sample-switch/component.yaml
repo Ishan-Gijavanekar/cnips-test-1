@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: Sample Switch
-spec:
-    type: switch
-    language: javascript
-    description: Sample to show switch blocks
-    signatureVersion: v3

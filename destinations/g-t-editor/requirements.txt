@@ -1,3 +1,0 @@
-logstore==1.0.0
-fastapi
-requests

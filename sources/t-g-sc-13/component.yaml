@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: t-g-sc-13
-spec:
-    type: source
-    sourceType: STANDARD
-    description: sd
-    apiAccessRef: 615794cc-7c44-4532-8d0e-e9746890a9e2

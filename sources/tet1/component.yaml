@@ -1,7 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: tet1
-spec:
-    type: source
-    apiAccessRef: 68986160-e631-4c4c-952c-1fc024fcd8fb

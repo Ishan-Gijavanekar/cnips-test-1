@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: email-validator
-spec:
-    runtime: go
-    description: Create a function that validates an email address from the input payload field 'email' and returns whether it is valid
-    signatureVersion: v2
-    templateVersion: V2

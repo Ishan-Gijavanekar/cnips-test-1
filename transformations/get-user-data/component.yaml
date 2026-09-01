@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: Get User Data
-spec:
-    type: transformation
-    language: golang
-    description: Get User Data from IAM
-    signatureVersion: v2

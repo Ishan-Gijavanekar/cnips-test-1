@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: fiber-test-005
-spec:
-    runtime: go
-    apiAccessRef: 1d196690-7d0b-4533-ae31-dcf61e19d42e
-    signatureVersion: v2
-    templateVersion: V2

@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: testt1234
-spec:
-    type: source
-    sourceType: STANDARD
-    apiAccessRef: 2bf2702e-2c03-40b9-880c-e8fe02e7b0ea

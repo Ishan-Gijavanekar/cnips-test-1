@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: t-g-dec-go-templ-3-eae33af0
-spec:
-    type: transformation
-    language: javascript
-    signatureVersion: v1

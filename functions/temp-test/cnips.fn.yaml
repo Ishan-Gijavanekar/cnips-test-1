@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: temp-test
-spec:
-    runtime: go
-    signatureVersion: v2
-    templateVersion: V2

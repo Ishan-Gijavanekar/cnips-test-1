@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: dest1-err-processing-40997f10
-spec:
-    type: destination
-    language: javascript
-    signatureVersion: v1

@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: t-g-go-error
-spec:
-    runtime: go
-    apiAccessRef: 9e755e27-f637-48f4-b244-6b9ee4c71c56
-    signatureVersion: v2
-    templateVersion: V2

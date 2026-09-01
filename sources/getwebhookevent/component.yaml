@@ -1,7 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: GetWebhookEvent
-spec:
-    type: source
-    apiAccessRef: 0636d67e-6217-4297-8897-227b4025abfd

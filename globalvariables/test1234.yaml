@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: GlobalVariable
-metadata:
-    name: test1234
-spec:
-    key: test1234
-    value: 6e78736a62636a7362786a7362786a6273
-    workspaceId: default

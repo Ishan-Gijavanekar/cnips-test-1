@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: retry-logs-transformation
-spec:
-    type: transformation
-    language: javascript
-    description: This is to test the retry logs seperations
-    signatureVersion: v3
