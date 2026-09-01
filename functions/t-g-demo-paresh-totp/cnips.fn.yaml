@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: t-g-demo-paresh-totp
-spec:
-    runtime: js
-    apiAccessRef: a1696cec-9491-480b-85d1-c4c5c2b80779
-    signatureVersion: v3
-    templateVersion: V3

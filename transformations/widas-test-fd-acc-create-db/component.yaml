@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: WIDAS_TEST_FD_ACC_CREATE_DB
-spec:
-    type: decision
-    language: javascript
-    signatureVersion: v1

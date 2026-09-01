@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: '[cspace]HubspotCompanySource'
-spec:
-    type: source
-    sourceType: STANDARD
-    description: Source to automation hubspot company and contact creation / linking
-    apiAccessRef: 675204a9-4c7a-4628-a190-028905b2de6c

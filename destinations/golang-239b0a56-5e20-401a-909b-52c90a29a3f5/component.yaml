@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: golang-239b0a56-5e20-401a-909b-52c90a29a3f5
-spec:
-    type: destination
-    language: golang
-    signatureVersion: v2

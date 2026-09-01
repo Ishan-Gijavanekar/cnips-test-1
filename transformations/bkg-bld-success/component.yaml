@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: bkg-bld-success
-spec:
-    type: decision
-    language: golang
-    signatureVersion: v1

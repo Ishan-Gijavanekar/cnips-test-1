@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: email-validator(2)
-spec:
-    runtime: go
-    description: Validates the email field in the JSON request body using a strict regex and returns a validity flag with a descriptive message.
-    signatureVersion: v2
-    templateVersion: V2

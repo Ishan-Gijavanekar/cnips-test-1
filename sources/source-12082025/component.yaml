@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: Source-12082025
-spec:
-    type: source
-    sourceType: STANDARD
-    description: This is test source created for testing new UI
-    apiAccessRef: 81c76369-5da3-440d-9115-62646f22c5d5

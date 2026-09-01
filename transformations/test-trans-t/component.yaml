@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: Test-trans-t
-spec:
-    type: transformation
-    language: javascript
-    description: This is for test
-    signatureVersion: v3

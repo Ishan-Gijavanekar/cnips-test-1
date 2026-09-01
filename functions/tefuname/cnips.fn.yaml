@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: tefuname
-spec:
-    runtime: go
-    apiAccessRef: 34b091f2-d5f3-4001-9588-2705a7b8d0da
-    signatureVersion: v1
-    templateVersion: V1

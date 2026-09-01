@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: user-deleted
-spec:
-    type: destination
-    language: javascript
-    signatureVersion: v1

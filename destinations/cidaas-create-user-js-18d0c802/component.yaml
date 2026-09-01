@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: Cidaas - Create User JS-18d0c802
-spec:
-    type: destination
-    language: javascript
-    signatureVersion: v2

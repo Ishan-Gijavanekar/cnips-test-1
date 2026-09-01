@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: '[WidasEnt] Test end'
-spec:
-    type: destination
-    language: golang
-    description: For testing pipeline and logging
-    signatureVersion: v2

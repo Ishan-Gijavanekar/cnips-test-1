@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: t-g-form-condition (Copy)
-spec:
-    runtime: go
-    apiAccessRef: b5c17499-6c9b-4c86-bef9-872ef058ed9b
-    signatureVersion: v2
-    templateVersion: V2

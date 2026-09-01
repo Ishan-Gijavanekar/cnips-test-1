@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: t-g-sig-v
-spec:
-    runtime: js
-    signatureVersion: v1
-    templateVersion: V1

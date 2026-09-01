@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: t-g-dest-py-templ
-spec:
-    type: destination
-    language: python
-    signatureVersion: v1

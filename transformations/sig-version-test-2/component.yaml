@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: sig version test 2
-spec:
-    type: transformation
-    language: golang
-    signatureVersion: v1

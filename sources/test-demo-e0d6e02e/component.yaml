@@ -1,7 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: test-demo-e0d6e02e
-spec:
-    type: source
-    apiAccessRef: 6645c472-edcb-40c7-acc6-6c5a5f2dfc57

@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: response-json-test
-spec:
-    runtime: js
-    apiAccessRef: 1d196690-7d0b-4533-ae31-dcf61e19d42e
-    signatureVersion: v1
-    templateVersion: V1

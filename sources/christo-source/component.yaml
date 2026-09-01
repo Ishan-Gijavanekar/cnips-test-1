@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: christo_source
-spec:
-    type: source
-    sourceType: STANDARD
-    description: test Autmation test
-    apiAccessRef: 03ef16f5-6b1e-4b3b-a306-81d422802dc5

@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: t-g-dec-templ1234
-spec:
-    type: decision
-    language: javascript
-    description: This is a description for the function. I'm testing overflow for longer description. loreum iposium loreum iposiumloreum iposiumloreum iposiumloreum iposiumloreum iposiumloreum iposiumloreum iposium
-    signatureVersion: v3

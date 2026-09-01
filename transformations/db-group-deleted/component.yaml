@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: DB_GROUP_DELETED
-spec:
-    type: decision
-    language: javascript
-    signatureVersion: v1

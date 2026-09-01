@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: src-smoke-test-dffded96-dd71-4092-8f68-b22ee9fe3e47
-spec:
-    type: source
-    sourceType: STANDARD
-    apiAccessRef: f3e2f171-4a40-45d8-a59a-5835ad613649

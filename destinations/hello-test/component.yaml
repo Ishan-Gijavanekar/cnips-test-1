@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: hello-test
-spec:
-    type: destination
-    language: javascript
-    signatureVersion: v3

@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: javascript-29b094d6-dbde-4999-a883-2c4190794b0a
-spec:
-    type: source
-    sourceType: STANDARD
-    apiAccessRef: 1cf29bfa-301f-40bc-9f71-47167c3a6f8b

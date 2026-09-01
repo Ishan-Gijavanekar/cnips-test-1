@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: Check Func
-spec:
-    runtime: js
-    description: This is for test
-    signatureVersion: v3
-    templateVersion: V3

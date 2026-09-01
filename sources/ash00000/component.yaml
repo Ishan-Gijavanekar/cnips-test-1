@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: ash00000
-spec:
-    type: source
-    sourceType: STANDARD
-    apiAccessRef: f2babcaa-8158-41a3-b289-f4cf4b95e6a5

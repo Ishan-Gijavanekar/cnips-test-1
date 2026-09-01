@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Function
-metadata:
-    name: test-scopes
-spec:
-    runtime: go
-    apiAccessRef: b5f297c0-07c0-4bd8-9252-60497d27762e
-    signatureVersion: v2
-    templateVersion: V2

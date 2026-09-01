@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: TRANS-Python-V1-7b39c7a6
-spec:
-    type: transformation
-    language: javascript
-    signatureVersion: v1

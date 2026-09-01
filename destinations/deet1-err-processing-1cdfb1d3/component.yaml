@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: deet1-err-processing-1cdfb1d3
-spec:
-    type: destination
-    language: javascript
-    signatureVersion: v1

@@ -1,8 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: FD_DEST_INVALID_USER-81b36c21
-spec:
-    type: destination
-    language: javascript
-    signatureVersion: v1

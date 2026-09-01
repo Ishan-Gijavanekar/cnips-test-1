@@ -1,9 +1,0 @@
-apiVersion: cnips.io/v1
-kind: Component
-metadata:
-    name: test1111
-spec:
-    type: source
-    sourceType: STANDARD
-    description: this is dummy source
-    apiAccessRef: 6647febe-df0b-4daf-9375-37eb5f192193
