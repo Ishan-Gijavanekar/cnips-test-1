@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 0636d67e-6217-4297-8897-227b4025abfd
+    name: Webhook Event
+spec:
+    type: APIAccess
+    ref: 0636d67e-6217-4297-8897-227b4025abfd
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:f2782d13810e1000aafeb689f74664dfdd836c40cd4aad341635351731c06ece67a356e35ca35e5a42a14cd9c87bd8c162cd6b6fda9c716d00bf671d373d71d2d22e860da4ee8c93fb73aa6440a0ce172bc5b9c2a94fe92ce77520a1b409418be104446e91c76aa2b2c740c9b5d0a36927836bc4]
+            apikey_placeholder: webhook_event
+            apikey_placement: header

@@ -1,0 +1,7 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: ttt-c7bc7eec
+spec:
+    type: source
+    apiAccessRef: b0178374-3fb4-44e2-ac21-ab93441d1381

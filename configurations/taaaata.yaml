@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 195c75b9-e63e-4d83-8ff6-8cafe45b25c9
+    name: taaaata
+    description: aaaa
+spec:
+    type: APIAccess
+    ref: 195c75b9-e63e-4d83-8ff6-8cafe45b25c9
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:8799353e6af019ac01b52db3e0f67a4f9631d3e1178d5fe939b18c4945fa021c45aa10b74ed289f01e958976e9d1e613e9a5cc1cc8729bc0c01f9a88492e9ac99e2a2a447c381d7c3692e04e7a84b1e7500cfc59f7836f6161e26ff07806f1d2afd4b12f0cf641d1aa84b38d9d2893b1bc65d3f5]
+            apikey_placeholder: taaaata
+            apikey_placement: header

@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 2bf2702e-2c03-40b9-880c-e8fe02e7b0ea
+    name: ashtests123
+    description: describe
+spec:
+    type: APIAccess
+    ref: 2bf2702e-2c03-40b9-880c-e8fe02e7b0ea
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:58fbc985f8a72a2efcac73d98226899af53a1daf80df6fe8eab17abbaebf2008f77037bc522cf6c17cec797ff6bb1c6bea96d12f08ab6b22c9676c0a03eaed3fac14957f4448a2df5e4d1c922303f1fff13f2af020dbf99cc04862ec8f07defb8507d0c6a315006461b596cb7ae5f92b3edfa6d4]
+            apikey_placeholder: ashtests1
+            apikey_placement: header

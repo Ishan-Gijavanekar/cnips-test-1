@@ -1,0 +1,20 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: all-components-in-one
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: d1
+          uses: transformation/s2@latest
+        - id: d1
+          uses: transformation/dummy@latest
+        - id: d1
+          uses: native/decision@1
+        - id: d1
+          uses: native/switch@1
+        - id: d1
+          uses: native/approval@1
+        - id: d1
+          uses: transformation/d1@latest

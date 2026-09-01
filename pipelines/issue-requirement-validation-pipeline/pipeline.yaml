@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: issue-requirement-validation-pipeline
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: issue-requirement-validation-dest
+          uses: transformation/issue-requirement-validation-source@latest
+        - id: issue-requirement-validation-dest
+          uses: transformation/issue-requirement-validation-dest@1.0.0
+    variables:
+        - name: b66b0e70-7d43-47f9-b840-4570e554c284
+          ref: b66b0e70-7d43-47f9-b840-4570e554c284

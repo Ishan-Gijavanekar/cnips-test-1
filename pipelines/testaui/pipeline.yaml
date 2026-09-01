@@ -1,0 +1,18 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: testaui
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: js-test-001
+          uses: transformation/js-schema-src@latest
+        - id: js-test-001
+          uses: transformation/js-uppercase@1.0.0
+        - id: js-test-001
+          uses: native/decision@1
+        - id: js-test-001
+          uses: transformation/js-schema-dest@1.0.0
+        - id: js-test-001
+          uses: transformation/js-test-001@1.0.0

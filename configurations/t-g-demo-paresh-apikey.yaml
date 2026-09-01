@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 8e794ea0-fca0-433f-8f45-897704786d79
+    name: t-g-demo-paresh-apikey
+spec:
+    type: APIAccess
+    ref: 8e794ea0-fca0-433f-8f45-897704786d79
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:10ab3aaa468acacfc629a586052aff4f80fad90c9fc34344ad3993125ac5aff563011f4964cfb7339ffbdb680fe5d06e32a93e0dd6450cd46c635372b9d19a2f2a114ce2e0059d0782348690c31ce3b02fc6d45a39505c21a0afda703ff6b4f8bd7a5a3b440ec12f5630e9a576bd1d693ab0aa9e]
+            apikey_placeholder: key
+            apikey_placement: header

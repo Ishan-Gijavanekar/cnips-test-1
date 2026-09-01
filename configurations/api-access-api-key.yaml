@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: fe388d89-7bef-4d46-b67a-8d5d31b7d5f9
+    name: API Access API Key
+    description: This is new configuration created for of configuration type API Access  and Access Type as API Key
+spec:
+    type: APIAccess
+    ref: fe388d89-7bef-4d46-b67a-8d5d31b7d5f9
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:901c7032a5b94a6fbcfd5d78942b5e4b331180f23de19d726c42bffda58aad24010a8cac8a2585bd4dcfe941a2a7400afbd25a72cb9986406302539da6fc990c1ded8d8a4fefb401aff47ee8f91913b112e5a6ccd8b3d24dfc588fce18323a37d7bde82cd52a389a643031fc1ad9d4fc0c2e95ec]
+            apikey_placeholder: "123456"
+            apikey_placement: header

@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test-src1234
+spec:
+    type: source
+    sourceType: STANDARD
+    description: This is for the test123
+    apiAccessRef: 591607bd-727f-408e-8775-811b40461315

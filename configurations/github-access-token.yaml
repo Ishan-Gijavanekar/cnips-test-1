@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: d716c681-9793-4091-b2b8-dfc97c831812
+    name: github_access_token
+    description: read access token
+spec:
+    type: APIAccess
+    ref: d716c681-9793-4091-b2b8-dfc97c831812
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:a061d769d5c152c93116c873215267c34d5232f255ef748ccbf3d188cf3d14c5e567ee8486952d72318560835993f30efffb27badc478077d95f5befc994a78f99ec315c832704f97b30a98cc6214eb4350357260423a6c6e95eba78d91ec2fe0a0d5433abe3315b4d1e589f1dd5ec3051df4378]
+            apikey_placeholder: ENC[AESGCM:v1:57df8684b5f1fb6c145e9a8ce1655c3104559c0dad3eed4f2b8cbefdac60e983dd65cec9ab700447b6df548e74673997d80947d92e72]
+            apikey_placement: header

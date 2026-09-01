@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 34b091f2-d5f3-4001-9588-2705a7b8d0da
+    name: faas-cfg-34b091f2-d5f3-4001-9588-2705a7b8d0da
+spec:
+    type: APIAccess
+    ref: 34b091f2-d5f3-4001-9588-2705a7b8d0da
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:f86a8fd48ad489ce737aeb509dbe277d6e1d2dd25f2afd2c5e3618ca4ad377465528a5fa611b9683ec91005fe5f8203ef35ebebc8b240aeade05ba757f3a5b34f2a9f9dbd3e1554532f495eac48b99aea3f07f75f6459988417f72b3177572b1727f7f6f]
+            apikey_placeholder: smoke-test
+            apikey_placement: query

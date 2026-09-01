@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 24c1e566-7ca9-43d0-beb1-a1ead405ebce
+    name: "2354234"
+    description: "234234"
+spec:
+    type: APIAccess
+    ref: 24c1e566-7ca9-43d0-beb1-a1ead405ebce
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: "24242342342"
+            client_secret: ENC[AESGCM:v1:4639c0426ff3dac014087155c737918adacde2fba2e11c10eeb495e27bdf83be888b99b6fb44a2fed8c9]
+            req_scopes: profile
+            wellknownUrl: https://oo.com

@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Cidaas - Get Group JS-1c3ec003
+spec:
+    language: javascript
+    config:
+        base_url: ""
+        client_id: ""
+        client_secret: ""
+    signatureVersion: v1

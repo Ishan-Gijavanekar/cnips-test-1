@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 0738dd93-38d2-46c1-8ae6-08fb20a913be
+    name: t-g-cn
+    description: sadasd
+spec:
+    type: APIAccess
+    ref: 0738dd93-38d2-46c1-8ae6-08fb20a913be
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: sadasd
+            client_secret: ENC[AESGCM:v1:d60bd8a0b6090872599c7fb2ded4cd9c61b6280ab203677c5b1323df84bfb5cc6574]
+            req_scopes: asdasdasd
+            wellknownUrl: https://asdas.com

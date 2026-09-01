@@ -1,0 +1,7 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: testdd
+spec:
+    type: source
+    apiAccessRef: f6a1c408-8cea-47cd-83eb-a93c00097644

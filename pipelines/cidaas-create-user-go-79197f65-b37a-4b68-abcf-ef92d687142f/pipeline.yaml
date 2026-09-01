@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: Cidaas - Create User Go-79197f65-b37a-4b68-abcf-ef92d687142f
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: golang-2c53686f-448e-4529-8fc1-a7dac9407b7a
+          uses: transformation/golang-24e7fc2e-2576-4bd1-8eb4-beb803343f1c@latest
+        - id: golang-2c53686f-448e-4529-8fc1-a7dac9407b7a
+          uses: transformation/golang-2c53686f-448e-4529-8fc1-a7dac9407b7a@latest

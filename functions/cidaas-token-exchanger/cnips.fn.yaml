@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: cidaas-token-exchanger
+spec:
+    runtime: go
+    description: Exchanges an OAuth2 authorization code against the Cidaas token endpoint using PKCE parameters and returns the token response.
+    config:
+        clientid: ASK_USER
+        redirecturi: ASK_USER
+        timeout: "30"
+        tokenendpoint: ENC[AESGCM:v1:8d4975c1a0509ec5d88d07a35931feee877e667c263b669e8969176d9b3859b0b43cfcef]
+    signatureVersion: v2
+    templateVersion: V2

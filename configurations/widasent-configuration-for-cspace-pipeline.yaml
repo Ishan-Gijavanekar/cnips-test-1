@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 7c129329-3a7e-4c5f-a87b-cd59809002a5
+    name: '[WidasEnt] Configuration for cspace pipeline'
+    description: Configuration for cspace user automation
+spec:
+    type: APIAccess
+    ref: 7c129329-3a7e-4c5f-a87b-cd59809002a5
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:5a13f38efd504dcd8bf39a95109f020d6eb2187ba1f792bfcbc4787fbdfe5a8886c9cdc7ae061b77d6414c8de5eceac61669ac11f519b1f742489c611ac385efefad443bf56ceedc8de01bf0ed86bdcf5064108b34d8c3f770d476639c3e496979ead9054c1b0e314d49c90b9eb65a0ca2ad9809]
+            apikey_placeholder: Authorization
+            apikey_placement: header

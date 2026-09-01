@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 2cb23861-d962-48d2-9403-fe149588a33d
+    name: t-g-genouth-clone
+    description: asdasd
+spec:
+    type: APIAccess
+    ref: 2cb23861-d962-48d2-9403-fe149588a33d
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: asd
+            client_secret: ENC[AESGCM:v1:1e4f4c3fb83cf7e7d17ac19c7949ef6b49e70c296c71d01697354cc010a64e21d87804ec]
+            wellknownUrl: https://automation-test.dev.cidaas.eu/.well-known/openid-configuration

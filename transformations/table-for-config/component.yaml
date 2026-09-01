@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: table-for-config
+spec:
+    type: transformation
+    language: golang
+    description: testing table
+    config:
+        apiKey: ENC[AESGCM:v1:1d2512b98728d8ce7f0b6075131807a3d5ca6ffab45dba51a8cd803d6202c501a93a5dfc85357764a27697943781f60fd17f9df69311608cdc71caf6125553c0b786eeec02cde43ede6ac03de33e9788821d38d9723f20b59cbeee175a96124badfbfc962e0367844e8fec]
+        table_base_url: http://dev.cnips.eu
+        tableId: 6dfd62d5-32cb-4b03-94c3-bfa9d26eb866
+        workspace: default
+    signatureVersion: v2

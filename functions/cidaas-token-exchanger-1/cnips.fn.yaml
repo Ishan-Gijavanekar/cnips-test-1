@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: cidaas-token-exchanger(1)
+spec:
+    runtime: go
+    description: Exchanges a Cidaas OAuth2 authorization code for access and refresh tokens via the token endpoint using application/x-www-form-urlencoded POST.
+    config:
+        clientid: ASK_USER
+        redirecturi: ASK_USER
+        timeout: "30"
+        tokenurl: ENC[AESGCM:v1:8d4975c1a0509ec5d88d07a35931feee877e667c263b669e8969176d9b3859b0b43cfcef]
+    signatureVersion: v1
+    templateVersion: V1

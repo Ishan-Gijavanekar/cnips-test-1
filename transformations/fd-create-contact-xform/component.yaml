@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: FD_CREATE_CONTACT_XFORM
+spec:
+    type: transformation
+    language: javascript
+    config:
+        api_key: ENC[AESGCM:v1:71c2f068d6228b080fe6cb2f8ff6e399ade9830b971d55497e0225a218a9fddab5a87daea8302d0058627998a84d]
+        base_url: https://widas-test.cidaas.eu
+        company_id: ENC[AESGCM:v1:b203bd2d6b38c93426a54e7a9556c03b335be3c8a652582da79df1766a8d8e9fc12f6e6f0e9c7a97]
+        freshdesk_url: https://widastechnologiesgmbh.freshdesk.com
+    signatureVersion: v1

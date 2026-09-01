@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: ce333749-752f-43f5-8136-b5f2d138c2fc
+    name: t-g-apikey-clone (Copy)
+    description: asfsfd
+spec:
+    type: APIAccess
+    ref: ce333749-752f-43f5-8136-b5f2d138c2fc
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:6d6c67c6745ea30ad0ee120375bae41afb810cdcb45c2c4cf0f004387bf8753f4b7e7a3cae534ba12489e15194e9a00802d936bf77f15202640efa372d264b27819df290fdf8ffdb9e619830c64fd5a392016ea466c7d5857c29ad144ddd075f7474181d0b5041f94014381f9fd8c0a4ddc11344]
+            apikey_placeholder: asdasd
+            apikey_placement: header

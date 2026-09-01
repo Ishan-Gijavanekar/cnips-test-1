@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: b5c17499-6c9b-4c86-bef9-872ef058ed9b
+    name: t-g-cn-apikey
+    description: test test
+spec:
+    type: APIAccess
+    ref: b5c17499-6c9b-4c86-bef9-872ef058ed9b
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:40dfe29870d817279004e0d1d95b105a984555629455354be843e16e4f00471fdd804adfb8c74e1a6f517deb7d227b4c0fabc7a5950cd811de6ef55ad0ff5777eacccc9c1d535307cf11b7e4120975946cceda27d2df7af3bac39fd11a63baa471f126789618f60190f6122da02b935ca5b8483a]
+            apikey_placeholder: saa
+            apikey_placement: header

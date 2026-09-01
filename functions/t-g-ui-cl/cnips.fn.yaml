@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: t-g-ui-cl
+spec:
+    runtime: js
+    description: asdas
+    signatureVersion: v3
+    templateVersion: V3

@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: freshdesk_delete_contact_agent_xform
+spec:
+    type: transformation
+    language: javascript
+    config:
+        api_key: ENC[AESGCM:v1:7a5d5ad5d753cfa80a6c8b8dbc66426a0bfeeb1581a052d1fb5dfaf3cec1a9533b3abbe6f6b0d253d71b6f39ceb96b]
+        api_key_old: ENC[AESGCM:v1:102ad6b5a7006d0701ea6e88f26d2baf7e3badc73cc02f830affd1c74b17a68aa40535a8f84aa745dc7134c9fd880b]
+        company_id: "204000052118"
+        freshdesk_url: https://widastechnologiesgmbh-help.freshdesk.com
+        groupId: freshdesk
+    signatureVersion: v1

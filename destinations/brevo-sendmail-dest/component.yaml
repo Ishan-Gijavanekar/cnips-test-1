@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: BREVO-SENDMAIL-DEST
+spec:
+    type: destination
+    language: golang
+    config:
+        BREVO_API_KEY: ENC[AESGCM:v1:cab51e7003b357389f9c2b79acec9da2538a402c071a3b135885e707e1aa5e8bb7ef0c3fa750a23f7cb4]
+        TEMPLATE_ID: "2"
+    signatureVersion: v1

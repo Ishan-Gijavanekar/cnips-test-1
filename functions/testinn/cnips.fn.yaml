@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: testinn
+spec:
+    runtime: go
+    apiAccessRef: 7c129329-3a7e-4c5f-a87b-cd59809002a5
+    signatureVersion: v2
+    templateVersion: V2

@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: cb84c45c-396c-4ed2-bae1-7d5474b53bd9
+    name: demo-prod-webhook-source-config
+    description: demo-prod-webhook-source-config
+spec:
+    type: APIAccess
+    ref: cb84c45c-396c-4ed2-bae1-7d5474b53bd9
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:ef7f77140f32417252878f7fe87e375baeab57512d18684f503081cf0a435993cefd071bb75dc7987c3ca2fc4cd31bcfeacf89c920de05f503af001f584d997e90e10635bef2c8d3a93c6eb248bd7884547ef303758373b5a28b3c543bec4c4a18923b332571bfd34be9a242b7f17b5c8dbd120a]
+            apikey_placeholder: IAmTheMostSecureOne
+            apikey_placement: header

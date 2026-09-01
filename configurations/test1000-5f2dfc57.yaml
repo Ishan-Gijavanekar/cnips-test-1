@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 6645c472-edcb-40c7-acc6-6c5a5f2dfc57
+    name: test1000-5f2dfc57
+    description: "123"
+spec:
+    type: APIAccess
+    ref: 6645c472-edcb-40c7-acc6-6c5a5f2dfc57
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:b86eaf080dd838e28a419e4de35d6628b4a44a043b4ae6adebe6e5d1d4f6b621fa02b934ed65700ebe8331b4e6bb44b4de0289b899dbf532b928168498ac2a5cd7b666beac6b83a26731d874b4788b67b9d51735922b55a4d057f493ba6cbd58090bef10c4246e8f55e9a9d6aca3d2a5ce71ba86]
+            apikey_placeholder: test
+            apikey_placement: header

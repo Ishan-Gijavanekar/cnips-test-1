@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Create User using app X
+spec:
+    type: transformation
+    language: javascript
+    config:
+        base_url: https://account.bildungscampus.life
+        client_id: a47c07f3-c3b7-4586-ad7b-dc00dfe7e9ec
+        client_secret: ENC[AESGCM:v1:6b54e5cb6ad3c304638338e749ac42db788c65f15defa153cd73047ad895f7e405ec22ff5359f3280707dae6390e20c98ef4a433d16f8b9f3014f5554efdc38e]
+    signatureVersion: v3

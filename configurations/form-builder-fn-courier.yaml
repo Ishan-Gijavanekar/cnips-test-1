@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 9c97b608-081a-45e2-93ea-95abe7e3d4eb
+    name: form-builder-fn-courier
+    description: in-url-token
+spec:
+    type: APIAccess
+    ref: 9c97b608-081a-45e2-93ea-95abe7e3d4eb
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:6d52af9342a50b5029779c015e0b3bd1d0d8047b5ee46b3e4e408c6482af9c1e7564a4561ef36ec346d69ac0dfe5928b45d13f5d57c3d1ed9602d2536c6fb271fbda97a14e3cf32b48696d89118d2baf7769fb34cb5a0482629eabd891ea22bb37accc4259dab204d6e0b6f08ed626d8bdeceef4]
+            apikey_placeholder: key
+            apikey_placement: query

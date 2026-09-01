@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: t-g-totp (Copy) (Copy)2
+spec:
+    runtime: js
+    config:
+        c: c
+        t: ENC[AESGCM:v1:e7c800deebd92f3390039eeab4ff2f7e5efec2c3f0cd43e665d47275bf]
+    apiAccessRef: 51a66d97-f04d-48d1-b4ee-c2a6164eb929
+    signatureVersion: v3
+    templateVersion: V3

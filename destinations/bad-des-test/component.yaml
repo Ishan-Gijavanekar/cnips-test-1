@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: bad-des-test
+spec:
+    type: destination
+    language: javascript
+    config:
+        imansys_user_url: https://aishwarya.net/testsystem2/testsystem2_api/api/import/users
+    signatureVersion: v3

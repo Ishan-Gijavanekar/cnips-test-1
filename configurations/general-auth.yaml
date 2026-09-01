@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 591607bd-727f-408e-8775-811b40461315
+    name: general-auth
+    description: This is the general O2Auth
+spec:
+    type: APIAccess
+    ref: 591607bd-727f-408e-8775-811b40461315
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: 677b42f4-4b0c-45bd-940b-6a1560853c58
+            client_secret: ENC[AESGCM:v1:8c24659af4c7ccb949e550ba89e54726e8eb376fa8289fa2571b94f32e4434af3425a77b96d5a43e849e7d130425401b174147beccb43b027949040a8d7ac767cced977fe1f189935781]
+            req_scopes: openid offline_access name profile email scopeTest_Ishan
+            wellknownUrl: https://google.com

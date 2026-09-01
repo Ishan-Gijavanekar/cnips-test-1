@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: return-dummy-data-245f3848-9f9653d6
+spec:
+    type: transformation
+    language: javascript
+    signatureVersion: v1

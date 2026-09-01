@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 8dc47c84-bf38-49a9-95e0-46d1dec563a2
+    name: otc
+spec:
+    type: APIAccess
+    ref: 8dc47c84-bf38-49a9-95e0-46d1dec563a2
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:104576c286a466839d228e81587b141eea63043bb5b380a4179848ec60705b8b020a6b2ae4dd021124302fae6f8274246a1aa6a88bf7bf0dcf359494f17fd85cdfb787d369e0a8ab2194672332aff50d92f24011e2a83e9cd3febfa4b763de4540aaa515486d06b22271ad72f074d6af20124987]
+            apikey_placeholder: otc-access-key
+            apikey_placement: query

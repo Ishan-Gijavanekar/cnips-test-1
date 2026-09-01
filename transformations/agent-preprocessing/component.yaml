@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: agent-preprocessing
+spec:
+    type: transformation
+    language: golang
+    config:
+        GITLAB_BASE_URL: ENC[AESGCM:v1:3899383c2cafa229a2a37997776cc98a377260874f32133bde684baa53a8aeeb655a816605d36205f5085ec50beeb9a01ff10a]
+        GITLAB_BOT_USERNAME: ENC[AESGCM:v1:21b72b6104ef72455c7f9681df2263a0c41da76bacfba5f99d623499462eb5851cb9f9216cacce1db18b6ef7522f050526fa406cc447284b8f52613fed2500753d849972529bb43ab3f0b63e7a]
+        GITLAB_PROJECT_ID: ENC[AESGCM:v1:13d4a96231fd95c7ead041da627591ca6c824599790bfaa1dc3506ce866893fe]
+        GITLAB_TOKEN: ENC[AESGCM:v1:61fc08d1252f26dc322dff6ae1b9ff8ba6987f75875eb4697d5a9672032fd2f782931aa6a447e427f65370cf5f23db544eef1bc293206e0775538745a697e4a506a70166a5c7eaa0cad2c77a6d4664fadf]
+    signatureVersion: v2

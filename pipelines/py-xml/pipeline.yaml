@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: py-xml
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: py-log-xml
+          uses: transformation/manual-api-source@latest
+        - id: py-log-xml
+          uses: transformation/py-log-xml@latest

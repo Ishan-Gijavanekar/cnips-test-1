@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: e81d644f-76d9-4071-a95d-0c19afd44708
+    name: testash100
+    description: description
+spec:
+    type: APIAccess
+    ref: e81d644f-76d9-4071-a95d-0c19afd44708
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:ed66274733b5e099cdfd01d97d240db19f2c96d05385339422ef8d94cd15476ff5f47472739c21d1dff785098ce1befe08008939a781da9ff9e01872aff4fea79ba702e64831a5689e585e196d4a52bbcfc939b0a67ddb94262745b29209f1b3a54c902f193f56b80b34dd9fd4300cd97b0546e5]
+            apikey_placeholder: test
+            apikey_placement: header

@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: a496f8d7-27f2-4740-b67c-cc68d09fdaa9
+    name: t-g-outh
+    description: asdfasd
+spec:
+    type: APIAccess
+    ref: a496f8d7-27f2-4740-b67c-cc68d09fdaa9
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: asdasd
+            client_secret: ENC[AESGCM:v1:d60bd8a0b6090872599c7fb2ded4cd9c61b6280ab203677c5b1323df84bfb5cc6574]
+            wellknownUrl: https://automation-test.dev.cidaas.eu/.well-known/openid-configuration

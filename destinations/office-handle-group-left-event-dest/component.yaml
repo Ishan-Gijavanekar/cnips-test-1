@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Office-handle-group-left-event-dest
+spec:
+    type: destination
+    language: javascript
+    config:
+        base_url: https://qa.cidaas.de
+    signatureVersion: v1

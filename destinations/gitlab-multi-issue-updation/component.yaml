@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Gitlab Multi Issue Updation
+spec:
+    type: destination
+    language: javascript
+    config:
+        gitlabToken: ENC[AESGCM:v1:e0f11a41f0a145afecc0af89b63cb9fb73b8e68f30a1592bcdd1b5df5d20f2869ccaa60029766ea22b47a696c4ccff83e5e811e2409b]
+    signatureVersion: v2

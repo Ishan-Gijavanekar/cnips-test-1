@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: src-err-processing-a080c55c
+spec:
+    type: source
+    sourceType: STANDARD
+    apiAccessRef: f98b49ae-56f6-4996-a0e6-9c4b8a1b25de

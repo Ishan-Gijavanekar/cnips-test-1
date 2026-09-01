@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: get-person-001
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: go-dest-001
+          uses: transformation/test-source@latest
+        - id: go-dest-001
+          uses: transformation/get-person@1.0.0
+        - id: go-dest-001
+          uses: transformation/go-dest-001@1.0.0

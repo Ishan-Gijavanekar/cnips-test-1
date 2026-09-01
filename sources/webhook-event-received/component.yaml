@@ -1,0 +1,7 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: 'Webhook Event Received '
+spec:
+    type: source
+    apiAccessRef: 9563a343-dec9-4be4-858c-0da96f444b5b

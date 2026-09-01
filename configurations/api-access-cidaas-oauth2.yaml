@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 88ce6fb5-1841-4da4-9360-abddee82ef6c
+    name: API Access cidaas OAuth2
+    description: This is new configuration created for of configuration type API Access  and Access Type as cidaas OAuth2
+spec:
+    type: APIAccess
+    ref: 88ce6fb5-1841-4da4-9360-abddee82ef6c
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: 302fbace-9b06-4a2d-a2d8-ba1aa10adc1c
+            client_secret: ENC[AESGCM:v1:80410c5fd667923880fafe856eac63f08db966ec5f19f986a1fd4c6de415dc283c2c54c78c069fa684434806f47f9d21538e096d0247b70d5354fa11669e4d15]
+            req_scopes: openid profile email cidaas:register cidaas:invite
+            wellknownUrl: https://automation-test.dev.cidaas.eu/.well-known/openid-configuration

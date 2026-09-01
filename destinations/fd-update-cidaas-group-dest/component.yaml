@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: FD_UPDATE_CIDAAS_GROUP_DEST
+spec:
+    type: destination
+    language: javascript
+    config:
+        base_url: https://qa.cidaas.de
+        cidaasGroupCustomFieldForCompanyId: freshdeskCompanyId
+    signatureVersion: v1

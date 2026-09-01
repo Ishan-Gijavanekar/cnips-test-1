@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: aishwarya123456
+spec:
+    type: transformation
+    language: javascript
+    config:
+        "2": "3"
+        test: ENC[AESGCM:v1:451e168e002ed2624ce7cf54cf71f97057f583eee963b1256d3b5ea6c8eba759]
+    signatureVersion: v3

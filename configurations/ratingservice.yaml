@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 41695003-353a-4c01-83d0-7231a817e713
+    name: ratingservice
+spec:
+    type: APIAccess
+    ref: 41695003-353a-4c01-83d0-7231a817e713
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:21f167114fe0f58447de638df60680b4a7d6c72d8510db518afd3e83a4481ef63f935251b0bee795d31438a9aed98e00fd90580dd0ec05d3b5e73b95e76a756db59d46b5067b93479e6c42d031aaa3ce4992b5d6e98fdb6ea894253a3c7594b3a872a97324cb22bd9665122a27f148f0b824d318]
+            apikey_placeholder: ratingKey
+            apikey_placement: query

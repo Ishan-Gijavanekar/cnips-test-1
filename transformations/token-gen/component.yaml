@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: token-gen
+spec:
+    type: transformation
+    language: golang
+    description: token generator
+    config:
+        cidaas_base_url: ' https://qa.cidaas.de/'
+        client_id: 46f3ae1a-a495-47b6-ae2b-0492b9883fc0
+        client_secret: ENC[AESGCM:v1:43e4c64130f81448b365d18a0e52889e49ba774422c939abc141a50e08bd91c8e20e04dbcd4c6e84df2902f44e9e251eda5498e8bddd02f022db68296e66aa91]
+        table_base_url: https://dev.cnips.eu
+        tableApiKey: ENC[AESGCM:v1:1d2512b98728d8ce7f0b6075131807a3d5ca6ffab45dba51a8cd803d6202c501a93a5dfc85357764a27697943781f60fd17f9df69311608cdc71caf6125553c0b786eeec02cde43ede6ac03de33e9788821d38d9723f20b59cbeee175a96124badfbfc962e0367844e8fec]
+        tableId: 1a4c1ec4-0638-49a0-bb65-9c2f939d6145
+        workspace: default
+    signatureVersion: v2

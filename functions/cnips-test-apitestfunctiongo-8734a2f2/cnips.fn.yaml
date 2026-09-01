@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: cnips-test-apitestfunctiongo-8734a2f2
+spec:
+    runtime: go
+    description: apitest function — auto-generated
+    config:
+        ENV: ENC[AESGCM:v1:aa7a9d66103592640e6510e1c77b28798c163b193aab4612059d3e5f987aa3]
+    apiAccessRef: a58c05c0-9a1b-4f36-b721-5aaba5ff020d
+    templateVersion: V2

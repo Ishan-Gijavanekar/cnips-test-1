@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 1003dd5a-c35e-4a58-b46a-0225a2d23bf2
+    name: t-g-cn-cid
+spec:
+    type: APIAccess
+    ref: 1003dd5a-c35e-4a58-b46a-0225a2d23bf2
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: "12"
+            client_secret: ENC[AESGCM:v1:f8dd5f6dc9764e9269234d1a46831c15fa931fac5c19ee0e1724f9b1625a]
+            req_scopes: "12312"
+            wellknownUrl: https://wl.com

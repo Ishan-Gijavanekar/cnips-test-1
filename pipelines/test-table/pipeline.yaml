@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test-table
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: d1
+          uses: transformation/s1@latest
+        - id: d1
+          uses: transformation/test-table-copy@latest
+        - id: d1
+          uses: transformation/d1@latest

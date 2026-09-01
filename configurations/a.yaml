@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: b5f297c0-07c0-4bd8-9252-60497d27762e
+    name: a
+spec:
+    type: APIAccess
+    ref: b5f297c0-07c0-4bd8-9252-60497d27762e
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: 08cd5b90-ee84-4783-a692-6bf3aac025a3
+            client_secret: ENC[AESGCM:v1:a92c68d8948fda11279423e34abb29634a9623bc1f73837f488b1b09dfd566d693bbb8bbde1f181539842ca9e85b87c3ea64a929bdf1e3b7c14f3c3f5d48d4ea]
+            req_scopes: cidaas:userinfo,cidaas:users_write
+            wellknownUrl: https://widas-test.cidaas.eu/.well-known/openid-configuration

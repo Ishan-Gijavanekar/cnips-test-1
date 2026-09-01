@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 55b1ec2b-f135-427c-bf6f-aeb52db09995
+    name: a1
+spec:
+    type: KeyValue
+    key: e
+    value: "3"
+    ref: 55b1ec2b-f135-427c-bf6f-aeb52db09995
+    workspaceId: default
+    apiAccess:
+        apiAccessType: ""

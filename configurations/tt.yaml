@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: f65c37f9-7534-44b5-95a1-435bb232c061
+    name: tt
+    description: tt
+spec:
+    type: APIAccess
+    ref: f65c37f9-7534-44b5-95a1-435bb232c061
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:f5248be6c6619073074e739f63a6cf34284da2f6240ffbc865d69b4c69b6fb72743dfd490cf35d66e19a39a53577b0ffc5d83482ca6118ad4f40481bf23bb29c46a979c28f7a51d58d54eb886900f33c20ec250178ed14f1f424fe4269c8534d4412740489867610600e8a30a298ba4565829dc9]
+            apikey_placeholder: key
+            apikey_placement: header

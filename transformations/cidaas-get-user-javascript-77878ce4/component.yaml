@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Cidaas - Get User Javascript-77878ce4
+spec:
+    type: transformation
+    language: javascript
+    config:
+        base_url: ""
+        client_id: ""
+        client_secret: ""
+    signatureVersion: v1

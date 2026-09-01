@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: dcb65118-8fc3-48b9-b376-b6e5713c1bf1
+    name: ash-all-test
+    description: use everywhere
+spec:
+    type: APIAccess
+    ref: dcb65118-8fc3-48b9-b376-b6e5713c1bf1
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:45e210837fb6ebe2db23a39ba219f37d0a843107b4f526efa9c3a2208571556cd25e1371fba85f731e13b4a0ea9b3c91769f6363014a4aa7a45af14ffa6de37b70c20752f39a8fecf697f9eafa6eceb1534430969ac794e8620bc7b02da77f3f5e15f42999cd67f99b7f3490584b7c3a7128155b]
+            apikey_placeholder: key
+            apikey_placement: header

@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: transform-calendar-data
+spec:
+    type: transformation
+    language: javascript
+    config:
+        apikey: ENC[AESGCM:v1:f8130024f00002f26e2a85e8ca48af93656b37224a36008bcb686aeda9d263ed]
+    signatureVersion: v2

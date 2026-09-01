@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: logs-test
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: d1
+          uses: transformation/s2@latest
+        - id: d1
+          uses: transformation/tz-111@latest
+        - id: d1
+          uses: transformation/d1@latest

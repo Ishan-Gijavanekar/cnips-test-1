@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: quota usage
+spec:
+    trigger:
+        type: http
+    retry:
+        maxAttempts: 1
+        backoffSec: 60
+    steps:
+        - id: quota-usage-go-2
+          uses: transformation/quota-usage@latest
+        - id: quota-usage-go-2
+          uses: transformation/quota-usage-go@1.0.0
+        - id: quota-usage-go-2
+          uses: transformation/quota-usage-go@1.0.0

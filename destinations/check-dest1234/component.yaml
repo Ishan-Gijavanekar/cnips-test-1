@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Check Dest1234
+spec:
+    type: destination
+    language: javascript
+    description: This is for the test
+    signatureVersion: v3

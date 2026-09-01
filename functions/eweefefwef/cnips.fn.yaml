@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: eweefefwef
+spec:
+    runtime: js
+    apiAccessRef: 03ef16f5-6b1e-4b3b-a306-81d422802dc5
+    signatureVersion: v3
+    templateVersion: V3

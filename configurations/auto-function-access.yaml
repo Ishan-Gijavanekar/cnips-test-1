@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: d3f50723-bd3a-4c17-adc9-5a067330dd82
+    name: auto-function-access
+spec:
+    type: APIAccess
+    ref: d3f50723-bd3a-4c17-adc9-5a067330dd82
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:674a23c2bad71dcff52db1e37d9096b51f1b157df18197cb761ba284092ee26759a48d2bf751852b23e5d097bc49cdb95a2d9e2e3e9a8e290d0a259dd91d77373b72671a612b159d9af0db6a52d859f4caa5fce8962b6d82b124f28b683699ccfa8c9fde21b97c2cfafbe48e3e7fb0d45ddfd2d7]
+            apikey_placeholder: X-API-Key
+            apikey_placement: header

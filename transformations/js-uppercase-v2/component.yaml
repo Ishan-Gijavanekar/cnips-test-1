@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: js-uppercase-v2
+spec:
+    type: transformation
+    language: javascript
+    config:
+        base_url: https://qa.cidaas.de
+        client_id: 46f3ae1a-a495-47b6-ae2b-0492b9883fc0
+        client_secret: ENC[AESGCM:v1:43e4c64130f81448b365d18a0e52889e49ba774422c939abc141a50e08bd91c8e20e04dbcd4c6e84df2902f44e9e251eda5498e8bddd02f022db68296e66aa91]
+    signatureVersion: v2

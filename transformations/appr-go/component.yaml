@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: appr-go
+spec:
+    type: approval
+    language: golang
+    description: Testing appr
+    config:
+        email_from: innacy.raja@widas.in
+        sendgrid_api_key: ENC[AESGCM:v1:146c47ddd6aaee1705d29488b8d85e53a9b77a90ce27775e4fa6b336ae77cffc33b93659526d47cef58ec3ebc2ac57f3ca9f583f7519367e1984222db05a2395d7f9416ada99be454781d44c983b12f995fb0bfb7c94fd4bfebc7c53a9341f90ec]
+    signatureVersion: v2

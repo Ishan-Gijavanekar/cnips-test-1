@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: buildPipelinesUsingProjectIds
+spec:
+    type: transformation
+    language: golang
+    config:
+        branchNames: dev-v3,dev-v2,cm.test
+        gitlabBaseURL: ENC[AESGCM:v1:b178a9a177c247e3282f954b0bdcd90f1ee78c9a840b1e22fa9fd66670fe4e72fd753565010199efeb7faa2c12b9b0457a64036c8f89d984b009]
+        gitlabToken: ENC[AESGCM:v1:749fb6777fc8c65556e9eb37a5d3d71a12c1a91d53ff8023e702bdca63147172cd863844d3fe83ad7c9f252d03bddf61fec73033c727]
+    signatureVersion: v2

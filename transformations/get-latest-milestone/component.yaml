@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: get-latest-milestone
+spec:
+    type: transformation
+    language: javascript
+    config:
+        gitlabBaseUrl: ENC[AESGCM:v1:3899383c2cafa229a2a37997776cc98a377260874f32133bde684baa53a8aeeb655a816605d36205f5085ec50beeb9a01ff10a]
+        gitlabToken: ENC[AESGCM:v1:4e4b5daf56e6bfa96e4b261a8ca3114dbb0f84530b63caaa5638fec8d69c0d7fbefe851d392d3a81630f0a6e7a15ab6e7bf0f91fdfb8]
+    signatureVersion: v2

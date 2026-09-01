@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 0b6bce7e-e7b2-4b04-b4f2-0cb22be1c77b
+    name: createtest
+spec:
+    type: APIAccess
+    ref: 0b6bce7e-e7b2-4b04-b4f2-0cb22be1c77b
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:b56f0e4b08e12ef2bede95d92e28f0bb3133b886b6b63de1c64618bc8fe5ce2a98084b04a122035bf269876ac7c74b64e8a49e06e051ea2451c19d6a1128815ce388632377cdff4b8f16ca4ac885a3a172be9334f9a68d51a55253198c33c141cd0bb91b0652d88d25492b288f88b06459b5bbb8]
+            apikey_placeholder: "124"
+            apikey_placement: header

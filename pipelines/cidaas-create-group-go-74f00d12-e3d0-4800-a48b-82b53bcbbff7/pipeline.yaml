@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: Cidaas - Create Group Go-74f00d12-e3d0-4800-a48b-82b53bcbbff7
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: golang-2ebf17ee-2914-4f18-9f20-72951e337537
+          uses: transformation/golang-6deb013e-556c-4f56-91ce-73d3fe08deaf@latest
+        - id: golang-2ebf17ee-2914-4f18-9f20-72951e337537
+          uses: transformation/golang-2ebf17ee-2914-4f18-9f20-72951e337537@latest

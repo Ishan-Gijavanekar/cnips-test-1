@@ -1,0 +1,7 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: freshdesk_with_code_src
+spec:
+    type: source
+    apiAccessRef: 1d196690-7d0b-4533-ae31-dcf61e19d42e

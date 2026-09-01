@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Project
+metadata:
+    name: default
+    labels:
+        tenantKey: cnips-local
+        workspaceId: default
+spec:
+    runtime: cnips

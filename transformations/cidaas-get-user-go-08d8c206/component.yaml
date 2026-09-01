@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Cidaas - Get User Go-08d8c206
+spec:
+    type: transformation
+    language: golang
+    config:
+        base_url: https://widas-test.cidaas.eu
+        client_id: 08cd5b90-ee84-4783-a692-6bf3aac025a3
+        client_secret: ENC[AESGCM:v1:54a5aca27c240a482a0cb057bade176822696a5745f61f1255031efbe861db15e50988fcc54a70883acfd9a4562346284106765365a528224777371f1ede8d9f]
+    signatureVersion: v2

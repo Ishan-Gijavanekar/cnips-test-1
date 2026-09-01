@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 0eb5f87c-8cd1-4b35-8a4c-7b9b305ef3c2
+    name: deniz test2
+spec:
+    type: APIAccess
+    ref: 0eb5f87c-8cd1-4b35-8a4c-7b9b305ef3c2
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:d7803a3e38baa79c0da207c9b3afaa86b801d4d15ddb3b1ab66c7b37614fdb16a27f9911188c35ee9fe43492fe6a8aae37f22785cac0a0241474def5b02b607b6bbf3ddf4d37b245d173976ec716316101e2fda8ff47ee5af271332b3735bc9a76f8636acdcadca5855d3fd5f2a615a0c989964a]
+            apikey_placeholder: test1
+            apikey_placement: header

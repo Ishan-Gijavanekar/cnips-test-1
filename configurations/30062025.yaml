@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 25d93fd2-2b92-4d73-82ac-8be6bab8bd49
+    name: "30062025"
+    description: "30062025"
+spec:
+    type: APIAccess
+    ref: 25d93fd2-2b92-4d73-82ac-8be6bab8bd49
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: "1312"
+            client_secret: ENC[AESGCM:v1:5d33a40180e344e2f32fd448293ae17a59ef8e6c58076474430c8ff291fe992c304827]
+            req_scopes: "12312"
+            wellknownUrl: https://ssad.com

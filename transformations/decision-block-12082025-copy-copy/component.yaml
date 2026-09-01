@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Decision-block-12082025 (Copy) (Copy)
+spec:
+    type: decision
+    language: javascript
+    description: https://gitlab.widas.de/cnips/issues/-/issues/230
+    signatureVersion: v1

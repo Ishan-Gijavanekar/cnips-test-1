@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: CheckAndCreateEventOverviewTable
+spec:
+    type: transformation
+    language: javascript
+    config:
+        gitlabBaseUrl: ENC[AESGCM:v1:b178a9a177c247e3282f954b0bdcd90f1ee78c9a840b1e22fa9fd66670fe4e72fd753565010199efeb7faa2c12b9b0457a64036c8f89d984b009]
+        gitlabToken: ENC[AESGCM:v1:e0f11a41f0a145afecc0af89b63cb9fb73b8e68f30a1592bcdd1b5df5d20f2869ccaa60029766ea22b47a696c4ccff83e5e811e2409b]
+    signatureVersion: v2

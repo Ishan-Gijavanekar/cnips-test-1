@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: cbdbbe03-3f68-4b4d-a459-0f0ab81ff68a
+    name: https://\5806852315937720650.owasp.org
+    description: Description Configurations
+spec:
+    type: APIAccess
+    ref: cbdbbe03-3f68-4b4d-a459-0f0ab81ff68a
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: app_9f3a2c7b1d84e6
+            client_secret: ENC[AESGCM:v1:ed0b6836aa5421594d0a2c308f94dc31b0e8c9e67c3b30f9127038afa04f2bae900086a259064e75e3e993b76cc3cd72a2edabf602109e8b9cb7]
+            req_scopes: Automation Scope
+            wellknownUrl: https://dev.cnips.eu/components

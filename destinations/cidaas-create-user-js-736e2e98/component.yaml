@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Cidaas - Create User JS-736e2e98
+spec:
+    type: destination
+    language: javascript
+    config:
+        base_url: https://automation-test.dev.cidaas.eu
+        client_id: 09384034-5148-417c-92a1-daad702c6bf7
+        client_secret: ENC[AESGCM:v1:d1f28bab02cefeee810d0b76fcd9869ad35703c3ce6e3482212b98a6172ce28dff4aefa013370ba8a56e0922128922b8c66d52e5a30df396e01b0724879f2199]
+    signatureVersion: v1

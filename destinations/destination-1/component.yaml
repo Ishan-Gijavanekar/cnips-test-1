@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: destination_1
+spec:
+    type: destination
+    language: javascript
+    description: destination_1
+    config:
+        "1": ENC[AESGCM:v1:9e1c985e0c6beba2c9ae9eb0fab2d2dc58bf4467a76ed0de7119572f7b]
+    signatureVersion: v1

@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: cidaas-token-exchange
+spec:
+    runtime: go
+    description: Exchanges OAuth2 authorization codes for Cidaas access and refresh tokens using a configurable token endpoint with optional PKCE support.
+    config:
+        clientid: ASK_USER
+        timeout: "30"
+        tokenurl: ENC[AESGCM:v1:8d4975c1a0509ec5d88d07a35931feee877e667c263b669e8969176d9b3859b0b43cfcef]
+    signatureVersion: v1
+    templateVersion: V1

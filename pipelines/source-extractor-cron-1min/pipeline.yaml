@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: source-extractor-cron-1min
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: t-g-scr-01
+          uses: transformation/demo-source-extractor-cron@latest
+        - id: t-g-scr-01
+          uses: transformation/t-g-scr-01@latest

@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: create-user-js-pl
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: cidaas-create-user-js-f77d3b3a
+          uses: transformation/js-cidaas-src@latest
+        - id: cidaas-create-user-js-f77d3b3a
+          uses: transformation/cidaas-create-user-js-f77d3b3a@1.0.1

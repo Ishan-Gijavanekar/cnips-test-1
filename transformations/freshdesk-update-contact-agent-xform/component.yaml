@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: freshdesk_update_contact_agent_xform
+spec:
+    type: transformation
+    language: javascript
+    config:
+        api_key: ENC[AESGCM:v1:102ad6b5a7006d0701ea6e88f26d2baf7e3badc73cc02f830affd1c74b17a68aa40535a8f84aa745dc7134c9fd880b]
+        company_id: "204000052118"
+        freshdesk_url: https://widastechnologiesgmbh-help.freshdesk.com
+        groupId: freshdesk
+    signatureVersion: v1

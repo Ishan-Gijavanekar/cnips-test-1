@@ -1,0 +1,18 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: t-manu-markt
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: audit-compliance-logging
+          uses: transformation/create-update-terminate@latest
+        - id: audit-compliance-logging
+          uses: transformation/deprovisioning-on-termination@latest
+        - id: audit-compliance-logging
+          uses: transformation/attribute-mapping@latest
+        - id: audit-compliance-logging
+          uses: native/switch@1
+        - id: audit-compliance-logging
+          uses: transformation/audit-compliance-logging@latest

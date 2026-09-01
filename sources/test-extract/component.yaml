@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test-extract
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: golang
+    config:
+        gitlabBaseUrl: ENC[AESGCM:v1:b178a9a177c247e3282f954b0bdcd90f1ee78c9a840b1e22fa9fd66670fe4e72fd753565010199efeb7faa2c12b9b0457a64036c8f89d984b009]
+        gitlabToken: ENC[AESGCM:v1:edfd2ed335fb66cfe42872c46f8b31f05c02b628fdd5250dfab16dce4b01f23565e64d17cb0aa24d4e837406a2318e68e8253867c27b]
+        packets: "100"
+        reportDurationDays: "7"
+        reportGroupId: "4413"
+    apiAccessRef: 03ef16f5-6b1e-4b3b-a306-81d422802dc5
+    signatureVersion: v2

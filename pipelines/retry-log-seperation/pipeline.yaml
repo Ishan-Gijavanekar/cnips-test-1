@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: retry-log-seperation
+spec:
+    trigger:
+        type: http
+    retry:
+        maxAttempts: 2
+        backoffSec: 60
+    steps:
+        - id: retry-logs-destination
+          uses: transformation/retry-logs-src-check@latest
+        - id: retry-logs-destination
+          uses: transformation/retry-logs-transformation@latest
+        - id: retry-logs-destination
+          uses: transformation/retry-logs-destination@latest

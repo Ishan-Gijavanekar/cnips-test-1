@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: bfe8dfc2-0f52-440b-bf47-e8b7973966ee
+    name: test-dynamic-import-config
+spec:
+    type: APIAccess
+    ref: bfe8dfc2-0f52-440b-bf47-e8b7973966ee
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:b4dabc4de6f876f16ed11a58c2145b123c36c7a475f2349b04a0fe4774c09a59e0dd94b745de8ab46035f03c4193be55863d6e88ff6246ee59896b300d3330f6e8374e666e52c53c74e4ed8a48fb337a093d2a83f08529a43af1f061ed36e4f679eeb8707a345081d6f6aebb07488b139153ba4c]
+            apikey_placeholder: key
+            apikey_placement: query

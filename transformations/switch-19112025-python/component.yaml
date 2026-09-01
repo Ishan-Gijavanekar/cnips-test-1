@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Switch-19112025-Python
+spec:
+    type: switch
+    language: javascript
+    description: Switch-19112025-Python
+    config:
+        key: ENC[AESGCM:v1:74367e44c64d94168230baba0834153cec7ea3bf973b099bed58645762d761095b]
+    signatureVersion: v1

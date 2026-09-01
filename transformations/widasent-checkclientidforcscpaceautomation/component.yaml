@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: '[WidasEnt] CheckClientIdForCscpaceAutomation'
+spec:
+    type: decision
+    language: golang
+    description: Checking client id for self sign on for cspace automation
+    signatureVersion: v2

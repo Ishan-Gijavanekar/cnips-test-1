@@ -1,0 +1,7 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: ee
+spec:
+    type: source
+    apiAccessRef: dcb65118-8fc3-48b9-b376-b6e5713c1bf1

@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: email-validator(5)
+spec:
+    runtime: go
+    description: Validates an email address from the request body and returns whether it matches a standard pattern with detailed error reporting.
+    config:
+        emailpattern: ^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[A-Za-z]{2}$
+        maxpayloadsize: "1048576"
+    signatureVersion: v2
+    templateVersion: V2

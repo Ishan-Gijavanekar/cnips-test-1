@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: config add test
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: test
+          uses: transformation/test@latest

@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Office-enrich-token-xform
+spec:
+    type: transformation
+    language: javascript
+    config:
+        client_id: c2bddbe3-5413-4979-b86a-a4614469333c
+        client_secret: ENC[AESGCM:v1:294dfde7a0881f69e15adfbe81414dc480d29bc5b93de7a823fa14887946890a5827951b8e3f32a90142432ba4271dab3210d6bd44df14511f982a7a93f02eb0447d3595]
+        office_url: https://login.microsoftonline.com/
+        tenant_id: c4b3e4a3-9f83-4349-b2e3-a46936cfd3e1
+    signatureVersion: v1

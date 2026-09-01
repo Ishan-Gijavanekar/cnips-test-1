@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Failed-webhook-gitlab-ticket-create
+spec:
+    type: destination
+    language: golang
+    config:
+        gitlabBaseUrl: ENC[AESGCM:v1:14f6397e8dfda510088eda7209b50155f6f1a88074e472c2fc2b350ce1e9b18ec885a0282bee07d984f6357eed6513aa2a2f5a937f921f25379609322ac79a8aa07b3d]
+        gitlabToken: ENC[AESGCM:v1:e0f11a41f0a145afecc0af89b63cb9fb73b8e68f30a1592bcdd1b5df5d20f2869ccaa60029766ea22b47a696c4ccff83e5e811e2409b]
+    signatureVersion: v2

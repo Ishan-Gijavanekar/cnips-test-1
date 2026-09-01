@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 9563a343-dec9-4be4-858c-0da96f444b5b
+    name: 'webhook automation config '
+spec:
+    type: APIAccess
+    ref: 9563a343-dec9-4be4-858c-0da96f444b5b
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: 48fd5acc-7f6e-48fd-8b83-ab43d14e411d
+            client_secret: ENC[AESGCM:v1:f97ad233a867444db43e1e30bf272aed4a4649831b052ca80864110137de75c65739984267be88162a77c44c8454c8f26941e56d74c173c9ab303a72aec5981e]
+            wellknownUrl: https://kube-nightlybuild-dev.cidaas.de/.well-known/openid-configuration

@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: '[WidasEnt] Cspace automation'
+spec:
+    type: source
+    sourceType: STANDARD
+    description: Source for cspace automation flow
+    apiAccessRef: 7c129329-3a7e-4c5f-a87b-cd59809002a5

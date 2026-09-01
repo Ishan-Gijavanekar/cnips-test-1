@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: cnips-post-agent
+spec:
+    type: transformation
+    language: javascript
+    config:
+        gitlab_token: ENC[AESGCM:v1:2b6ad9bcdbc3208ad171c11fc3e4ce4c8a9d94e49bd30f53a001e8025bddd4dcf56738229598e2ec566a22d3ebdad3111bcca1992abdf546cdda393d08a6904f216030cfdc40aab21de278f1bdaee159bd]
+        gitlab_tokenq: ENC[AESGCM:v1:2a3a6b871f3dc4074393d8520bf767bd3a30ad9eab6e12bfceab82539359f370b9bf0102a1da86ce1cd7e7999df9b0d7078788cf37cb5457e213c71a0052d91b6f4a316be604230f2a85702d59d6c24bb4]
+    signatureVersion: v3

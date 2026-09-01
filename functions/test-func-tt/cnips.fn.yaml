@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: test-func-tt
+spec:
+    runtime: js
+    description: This is for the test purpose only
+    config:
+        apikey: ENC[AESGCM:v1:e13cb02de7bc1b2f6c6b7b9668dcc2bcda786f20ab7701d2192007694ab36c1b915b4c]
+        secret: ENC[AESGCM:v1:04f133c41f1fc53d87eb39cd9599b58763f8f45d802764d0f0c37416c3180f86df]
+        test: test
+    signatureVersion: v3
+    templateVersion: V3

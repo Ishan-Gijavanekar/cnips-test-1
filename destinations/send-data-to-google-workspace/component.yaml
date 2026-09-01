@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Send Data to Google Workspace
+spec:
+    type: destination
+    language: javascript
+    description: Send Data to Google Workspace
+    signatureVersion: v3

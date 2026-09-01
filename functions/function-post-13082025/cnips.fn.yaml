@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: Function - Post - 13082025
+spec:
+    runtime: js
+    description: Function - Post - 13082025
+    config:
+        "1": "1"
+    apiAccessRef: a8fae28a-550e-436b-adae-730820ecd9d6
+    signatureVersion: v3
+    templateVersion: V3

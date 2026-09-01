@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: Get-FAAS
+spec:
+    runtime: js
+    description: Get-FAAS
+    config:
+        Helo: Venkatesh
+    apiAccessRef: d716c681-9793-4091-b2b8-dfc97c831812
+    signatureVersion: v3
+    templateVersion: V3

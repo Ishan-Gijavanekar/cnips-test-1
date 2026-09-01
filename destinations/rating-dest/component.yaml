@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: rating dest
+spec:
+    type: destination
+    language: javascript
+    signatureVersion: v1

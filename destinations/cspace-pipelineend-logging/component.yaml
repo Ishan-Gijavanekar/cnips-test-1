@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: '[Cspace]PipelineEnd_Logging'
+spec:
+    type: destination
+    language: golang
+    description: At the end of the pipeline the event gots logged.
+    signatureVersion: v2

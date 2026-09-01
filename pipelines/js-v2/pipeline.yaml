@@ -1,0 +1,21 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: js-v2
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: js-log-destination-v2
+          uses: transformation/manual-api-source@latest
+        - id: js-log-destination-v2
+          uses: transformation/js-uppercase-v2@1.0.0
+        - id: js-log-destination-v2
+          uses: transformation/js-charcount-v2@1.0.0
+        - id: js-log-destination-v2
+          uses: native/decision@1
+        - id: js-log-destination-v2
+          uses: transformation/js-log-destination-v2@1.0.0
+    variables:
+        - name: 3cd0a709-3ab7-4e31-8283-7b69a9263042
+          ref: 3cd0a709-3ab7-4e31-8283-7b69a9263042

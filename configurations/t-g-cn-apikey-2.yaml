@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 983f7ceb-c47d-458f-a899-c656909e1fd9
+    name: t-g-cn-apikey-2
+    description: sdfsdf
+spec:
+    type: APIAccess
+    ref: 983f7ceb-c47d-458f-a899-c656909e1fd9
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:1ab2fe62634085ed247fd76bebefe9f940ae402613846703bb546805afb67865c7593c1a667bdd16667eefca0188aa3b0d5dbaefc69efe739f116fe4fc9965f6db254d2ce8fc184413ec1ca526a78221a3595ef27f3c5a0a495c9a19dc6b7eeff31876abf2ac726ae46138a3ced0d5dae7a709dd]
+            apikey_placeholder: dasassdfsdf
+            apikey_placement: query

@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: DB_UPDATE_USER-77ed53b7
+spec:
+    type: decision
+    language: javascript
+    signatureVersion: v1

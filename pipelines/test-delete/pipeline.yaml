@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test delete
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: quota-exec-time-dest
+          uses: transformation/source-quota-exec-time@latest
+        - id: quota-exec-time-dest
+          uses: transformation/quota-exec-time-dest@latest

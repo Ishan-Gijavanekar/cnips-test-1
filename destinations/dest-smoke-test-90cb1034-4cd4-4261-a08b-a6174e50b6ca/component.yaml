@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: dest-smoke-test-90cb1034-4cd4-4261-a08b-a6174e50b6ca
+spec:
+    type: destination
+    language: javascript
+    signatureVersion: v1

@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: db7f2b17-a2e8-409c-851f-652ac272a25b
+    name: "88888"
+    description: "234234234"
+spec:
+    type: APIAccess
+    ref: db7f2b17-a2e8-409c-851f-652ac272a25b
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:2ef02aed0bf4be262ef028127e7723e1e5371d9af7f2ecf017fd2893909d2f68aceddb76bd6f93985bc568f3f6986d257db19f23b56f26d261334a6eeacdeb98cfd38a1486ffffb47fb4a4b33a0976887e9bfa7c7c5d518a63160501cda1bd951036066224bbf0679c625f805c833d4ac9f24ca9]
+            apikey_placeholder: "234234234"
+            apikey_placement: header

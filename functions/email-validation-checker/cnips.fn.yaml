@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: email-validation-checker
+spec:
+    runtime: go
+    description: Validates the email field in the request body against a strict pattern and returns its validity status with descriptive messaging.
+    config:
+        emailpattern: ^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$
+    signatureVersion: v2
+    templateVersion: V2

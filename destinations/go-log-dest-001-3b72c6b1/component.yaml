@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: go-log-dest-001-3b72c6b1
+spec:
+    type: destination
+    language: golang
+    signatureVersion: v1

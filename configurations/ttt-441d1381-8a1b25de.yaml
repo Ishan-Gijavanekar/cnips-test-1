@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: f98b49ae-56f6-4996-a0e6-9c4b8a1b25de
+    name: ttt-441d1381-8a1b25de
+spec:
+    type: APIAccess
+    ref: f98b49ae-56f6-4996-a0e6-9c4b8a1b25de
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:abc45c65e13e50b89e2c6b65390fa5a099dba5634118500cac1d1463bdac573f35bfe6efa94e5cc9cbce856245af7021d10ba59ef4d05ae4cc0d91cdecfd247bdb4da5cc7e037d7c4d30a9d53c4551a0123303e23616e759d09a2b15a421e0741c7520ca2a8b01cce6db88203ebe3aa79053ba36]
+            apikey_placeholder: ttt
+            apikey_placement: header

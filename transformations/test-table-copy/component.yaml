@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test table (Copy)
+spec:
+    type: transformation
+    language: golang
+    description: testing table
+    config:
+        apiKey: ENC[AESGCM:v1:1d2512b98728d8ce7f0b6075131807a3d5ca6ffab45dba51a8cd803d6202c501a93a5dfc85357764a27697943781f60fd17f9df69311608cdc71caf6125553c0b786eeec02cde43ede6ac03de33e9788821d38d9723f20b59cbeee175a96124badfbfc962e0367844e8fec]
+        table_base_url: https://dev.cnips.eu
+        tableId: 91c20eb3-86e8-40ff-a8c4-b8e48792b419
+        workspace: default
+    signatureVersion: v2

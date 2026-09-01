@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: my-test-eada327c
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: test-a013044a
+          uses: transformation/mytest-1b6bec0c@latest
+        - id: test-a013044a
+          uses: transformation/test-a013044a@latest
+    variables:
+        - name: 834f49b0-d68c-45bf-8fe8-41584e6c62b7
+          ref: 834f49b0-d68c-45bf-8fe8-41584e6c62b7

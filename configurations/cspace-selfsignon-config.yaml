@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 3b690c5e-b155-4c45-a360-21832fdf1fb0
+    name: '[Cspace]SelfSignOn_Config'
+    description: 'Configuration for cspace self sign on '
+spec:
+    type: APIAccess
+    ref: 3b690c5e-b155-4c45-a360-21832fdf1fb0
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:3e7ef40fb50a483534368c4531cbec223a1060861131962f7776adff994e346a92e3eb217cc149cc72bcbea3dcb7627cd8fdbda7296e8e9c418a55eb1805664433ba5849e8db4b645bcbdf8da59d94c39d761f56367a1540bd1af6b3a401ca96a0663768331bb5c44972e4a07d58ad8a7613af5f]
+            apikey_placeholder: Authorization
+            apikey_placement: header

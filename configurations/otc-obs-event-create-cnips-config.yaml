@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: f5d34c56-27c5-4e89-9afe-7dd99d1ad751
+    name: OTC:OBS:EVENT:CREATE:CNIPS:CONFIG
+spec:
+    type: APIAccess
+    ref: f5d34c56-27c5-4e89-9afe-7dd99d1ad751
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:50717345cda9ddf4cf8fba5ad37f1e16385064afbfba8b0544187e1369886de1bd1aecde3b2c2f2c72189ce97ac985341123fba1455699e40d516da76e058f888a8b8275f0f2e4d0e81342cad07a723aea2cc34e3edf8aeebb422e6e4ca91ed72be3456147058e10be48b3f83d3bb01db879ef3e]
+            apikey_placeholder: key
+            apikey_placement: query

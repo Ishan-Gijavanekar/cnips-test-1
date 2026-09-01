@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: golang-c3359f3d-7fd6-41b8-a2a8-9f7c83f8fc32
+spec:
+    type: destination
+    language: golang
+    config:
+        base_url: https://widas-test.cidaas.eu
+        client_id: af2291a6-25d7-4b07-8230-f0803f6c1189
+        client_secret: ENC[AESGCM:v1:cc92d2512c6d3e14c2abde0f893fa743ee90bdd875cce86347e863e00b7c27f33dd2fd933e49e11ab871246e0919f7110c0b0ff080963e527865fd144504115d]
+    signatureVersion: v1

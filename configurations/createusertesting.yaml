@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 0b5fd2f0-b864-4f36-a48c-e4d2f20904cc
+    name: createusertesting
+spec:
+    type: APIAccess
+    ref: 0b5fd2f0-b864-4f36-a48c-e4d2f20904cc
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:5b5043432a4f08c13127f48c5408c7f2ef1870ad9d7b864b531b792374cff8e6d4cae0993f8c43e6d4b879d4141fb16c41e0a022f5eddc57ca4cdb66a406aa1fd346e976fadf284fbfc1aedcdc900921af53c2ff22d9af4240ff0596f5bbb59243ec23483f09bfcf392f8bcbf9f692b5d8072363]
+            apikey_placeholder: testtoken
+            apikey_placement: header

@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 705f8cff-f5fb-4ea0-9f3f-24624d7274e7
+    name: Rebuild- Dev-Environment
+spec:
+    type: APIAccess
+    ref: 705f8cff-f5fb-4ea0-9f3f-24624d7274e7
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:280f2ce1be429cac2a7f4099d51dd439f91e0d8dfc677a4d98ea5289e47a828c30b962595b28ac8413e543c4b51de609545f7e9533bcf3056783eff66a9a315c61d4b4e134b2d25ae6f2f21c79433fae6f75e4fa2e55c96dba41d186e1f5074799280af67f2b9f4aed8664967bcded4e2a4b93d4]
+            apikey_placeholder: apiKey
+            apikey_placement: header

@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 12654308-7ca2-43b8-8afd-4b9a6815f40b
+    name: DEMO-CFG
+    description: Demo Config
+spec:
+    type: APIAccess
+    ref: 12654308-7ca2-43b8-8afd-4b9a6815f40b
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:064e1382797c174849789100807ece329a1135aa6411778bd2c8454361871c2e9ba3ef72417a1dc2f495851692646522a453c3e3687d73e7d6481925d3eb3433e059d6fb167060e3ac73ee91f9673c7c4fd6edd2a939b0f30c5b996a1b2e1685ee8e88d00c30b12eb4a1f36e6ea5e6bf1b2e90ae]
+            apikey_placeholder: apiKey
+            apikey_placement: header

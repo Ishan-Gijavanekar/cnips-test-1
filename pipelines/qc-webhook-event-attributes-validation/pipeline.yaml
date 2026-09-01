@@ -1,0 +1,41 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: QC  Webhook Event Attributes Validation
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: gitlabticketupdation
+          uses: transformation/getwebhookevent@latest
+        - id: gitlabticketupdation
+          uses: transformation/getcidaasversion@1.0.0
+        - id: gitlabticketupdation
+          uses: transformation/searchwebhookeventoverviewtableissue@1.0.0
+        - id: gitlabticketupdation
+          uses: transformation/getwebhookrequiredattributes@1.0.0
+        - id: gitlabticketupdation
+          uses: transformation/gitlabissuesearch@1.0.0
+        - id: gitlabticketupdation
+          uses: transformation/checkandcreateeventoverviewtable@1.0.0
+        - id: gitlabticketupdation
+          uses: transformation/webhookeventattributesvalidation@1.0.0
+        - id: gitlabticketupdation
+          uses: native/decision@1
+        - id: gitlabticketupdation
+          uses: transformation/fetcheventoverviewissue@1.0.0
+        - id: gitlabticketupdation
+          uses: transformation/fetchgitlabissue@1.0.0
+        - id: gitlabticketupdation
+          uses: transformation/updateeventoverviewtableissue@1.0.0
+        - id: gitlabticketupdation
+          uses: transformation/searcheventtypeissueincomponents@1.0.0
+        - id: gitlabticketupdation
+          uses: transformation/gitlabissuesearch@1.0.0
+        - id: gitlabticketupdation
+          uses: transformation/checkandcreateeventtypeissue@1.0.0
+        - id: gitlabticketupdation
+          uses: transformation/gitlabticketupdation@1.0.0
+    variables:
+        - name: ba0d2519-c3a4-4734-97b4-be4f8b4e3259
+          ref: ba0d2519-c3a4-4734-97b4-be4f8b4e3259

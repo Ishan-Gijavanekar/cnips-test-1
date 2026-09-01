@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: bunney-net-cdn-cache-clear
+spec:
+    type: destination
+    language: javascript
+    config:
+        BUCKET_CNIPS_EVENT_TEST: https://cnips-event-test.b-cdn.net/
+        BUNNY_NET_API_KEY: ENC[AESGCM:v1:bf29a5cef0ee4d705d80594973501472a3cbe84c2f44f1a86867cb0cc3b3f67e51ca27c522ed0ee921487fafbeb5538a9e7becc6636473a06582e12a06d3cfbfb0b2b4bf41dfcb5f5aef4b25201163bc78a6e8c4e6643f2365c85e69656f6193eb1c2244]
+        BUNNY_PURGE_URL: https://api.bunny.net/purge
+    signatureVersion: v3

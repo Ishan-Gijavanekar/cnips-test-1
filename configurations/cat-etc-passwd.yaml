@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: f0df2ebf-3397-46b0-92c2-3a51e73d01c6
+    name: cat /etc/passwd
+    description: Description Configurations
+spec:
+    type: APIAccess
+    ref: f0df2ebf-3397-46b0-92c2-3a51e73d01c6
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: app_9f3a2c7b1d84e6
+            client_secret: ENC[AESGCM:v1:ed0b6836aa5421594d0a2c308f94dc31b0e8c9e67c3b30f9127038afa04f2bae900086a259064e75e3e993b76cc3cd72a2edabf602109e8b9cb7]
+            req_scopes: Automation Scope
+            wellknownUrl: https://dev.cnips.eu/components

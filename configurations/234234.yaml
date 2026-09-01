@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 2050384d-0f39-46c9-9709-f8c999e03417
+    name: "234234"
+    description: "234234"
+spec:
+    type: APIAccess
+    ref: 2050384d-0f39-46c9-9709-f8c999e03417
+    workspaceId: default
+    apiAccess:
+        apiAccessType: TOTP
+        totpDetails:
+            totp_placeholder: "323213157567"
+            totp_placement: header
+            totpkey: d8801dbcf3cf95d25c979ec4248e9ac31471f0c419dc2bb96ee2d61d4353f6e0150a38f2cc273e7dc5e83194bb154ef772bb404793ac42fabaf27816ef7cea24d6def7eaa25dd40d9dac8cec64239c10

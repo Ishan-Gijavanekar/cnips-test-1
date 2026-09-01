@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: b853cf38-7f59-4c3d-b8b2-21711e2119c8
+    name: name1
+spec:
+    type: APIAccess
+    ref: b853cf38-7f59-4c3d-b8b2-21711e2119c8
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:48eabd90a63bc25cb087424f9367cf0d584e2f0a24419d8e5a5076fcd7177d34762c8b405d49eea4021fdab99d03ccd23d4851e205bfe87ec7e837483d4dd4efc4286fdd668c3d33004373b766e5c25d84d30d04de2428d112da7b9df7df5b1a501479dcbab3d0ba5d345a5f228f1deeaecb32c4]
+            apikey_placeholder: aa
+            apikey_placement: header

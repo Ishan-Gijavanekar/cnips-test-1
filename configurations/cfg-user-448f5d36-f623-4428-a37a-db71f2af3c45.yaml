@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 448f5d36-f623-4428-a37a-db71f2af3c45
+    name: CFG-USER-448f5d36-f623-4428-a37a-db71f2af3c45
+spec:
+    type: APIAccess
+    ref: 448f5d36-f623-4428-a37a-db71f2af3c45
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:2cfb958bf04d03e293a5ef468c6866d7cb3e86182cc577c64cd396ec223b203f43c5bca06509238b1d4c9982cec1c407d8911a372646c7d733dfb21e241e12a7fb158d65e5840c33a90d2c9575754cf94642a216f9eeed8b05c037dfeef04621ce0b85a5]
+            apikey_placeholder: smoke-test
+            apikey_placement: query

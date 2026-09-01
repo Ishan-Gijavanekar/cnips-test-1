@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test001
+spec:
+    type: transformation
+    language: golang
+    config:
+        test: this is data \\
+    signatureVersion: v1

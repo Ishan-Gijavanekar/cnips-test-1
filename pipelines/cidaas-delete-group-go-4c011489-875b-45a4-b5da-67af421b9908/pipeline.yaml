@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: Cidaas - Delete Group Go-4c011489-875b-45a4-b5da-67af421b9908
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: golang-560b6a18-6511-4fc8-9111-05bc53316da3
+          uses: transformation/golang-31437ff0-f475-44bc-ae7b-977514463776@latest
+        - id: golang-560b6a18-6511-4fc8-9111-05bc53316da3
+          uses: transformation/golang-560b6a18-6511-4fc8-9111-05bc53316da3@latest

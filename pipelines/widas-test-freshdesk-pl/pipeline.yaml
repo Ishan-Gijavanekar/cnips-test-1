@@ -1,0 +1,20 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: WIDAS_TEST_FRESHDESK_PL
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: widas-test-fd-invalid-acc-type-dest
+          uses: transformation/widas-test-freshdesk-src@latest
+        - id: widas-test-fd-invalid-acc-type-dest
+          uses: transformation/widas-test-freshdesk-getuser-xform@1.0.0
+        - id: widas-test-fd-invalid-acc-type-dest
+          uses: native/decision@1
+        - id: widas-test-fd-invalid-acc-type-dest
+          uses: transformation/widas-test-fd-check-group-roles-xform@1.0.0
+        - id: widas-test-fd-invalid-acc-type-dest
+          uses: transformation/widas-test-freshdesk-dest@1.0.0
+        - id: widas-test-fd-invalid-acc-type-dest
+          uses: transformation/widas-test-fd-invalid-acc-type-dest@1.0.0

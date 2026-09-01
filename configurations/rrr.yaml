@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: a9ae346b-2ffb-4958-8da0-61cd2ce0eed0
+    name: rrr
+spec:
+    type: APIAccess
+    ref: a9ae346b-2ffb-4958-8da0-61cd2ce0eed0
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:97fe69941ee433e66b8cf4763aec1a9406e9c5532dcb0713cbad821219a65b668f53a889193530593a81fff311fb3aa528385f0512428ec0ba109a32dbe64eaf4b156e3e0e310fb170260fc56724c9d3cb894417198018000508d9c00f9f11b9107b67d951ea0a6372dd54377a2a0014160e3df2]
+            apikey_placeholder: sss
+            apikey_placement: header

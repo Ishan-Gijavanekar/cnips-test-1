@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: cnips-get-details-gitlab
+spec:
+    type: transformation
+    language: javascript
+    config:
+        gitlab_token: ENC[AESGCM:v1:2a3a6b871f3dc4074393d8520bf767bd3a30ad9eab6e12bfceab82539359f370b9bf0102a1da86ce1cd7e7999df9b0d7078788cf37cb5457e213c71a0052d91b6f4a316be604230f2a85702d59d6c24bb4]
+    signatureVersion: v3

@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: cddcdsdsc
+spec:
+    type: transformation
+    language: javascript
+    config:
+        asdbfdbdfb: ENC[AESGCM:v1:8d5caa942f6dae63b6d43366972da93aaa8433120dd5e05fdbd8a61b75e381bbb0a9be]
+    signatureVersion: v3

@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: crudTesting
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: cidaas-update-user
+          uses: transformation/test111@latest
+        - id: cidaas-update-user
+          uses: transformation/cidaas-update-user@1.0.0
+          with:
+            base_url: https://kube-nightlybuild-dev.cidaas.de
+            client_id: f5f5c082-3c0c-47d2-83e8-9d52aff5810b
+            client_secret: ENC[AESGCM:v1:4980beb6004cd34da1b1f6b7e993b3fd4de5b4bf74d250f32bfb28f8e332094e08b85cead6fc2d274f7ac1eab0b7bc0d55203770aef297ebc8073e9bb7e099fa]

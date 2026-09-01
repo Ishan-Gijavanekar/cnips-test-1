@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: e50b9b6b-b0ba-454f-81b7-d67db95e0e99
+    name: Issue Requirement Validation
+spec:
+    type: APIAccess
+    ref: e50b9b6b-b0ba-454f-81b7-d67db95e0e99
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:ec894827fb8ef3b32685eb484b9b94873b9d8fcd03517ca1f5fa47e01ab312990c9d266608974af18ba938160f33bae5768a50fadf59b81b74c0b7cd7b0bdb66315eafb626c184d9094f1847afb4fe70487b2201ed5a50490d1129ce43ef4dc4aa0a25efdab77bed965ba544a8f5410c09b91d7d]
+            apikey_placeholder: issue-requirement
+            apikey_placement: header

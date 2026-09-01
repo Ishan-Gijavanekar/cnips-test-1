@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: quota usage - go
+spec:
+    type: destination
+    language: golang
+    signatureVersion: v1

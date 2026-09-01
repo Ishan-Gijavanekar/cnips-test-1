@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Automation
+spec:
+    type: destination
+    language: golang
+    description: test
+    signatureVersion: v2

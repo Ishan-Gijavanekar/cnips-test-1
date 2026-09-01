@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 98d12766-159d-4ea2-82fe-375086ee6789
+    name: notifyuser
+spec:
+    type: APIAccess
+    ref: 98d12766-159d-4ea2-82fe-375086ee6789
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:afb2495d84808dccc202473d6c16ed3b5c508ffeecce4408bb74ee68937a00f85d60639ffe14e679950e762165f2d64e35988b291ab6d766081056a57fe110d7a3fb75067459f9daa1a0229ace5fa81b5f840979ce16361c615156e2bd70410a6d86e99236d15930d8540ca56af4537d63cda03e]
+            apikey_placeholder: token
+            apikey_placement: header

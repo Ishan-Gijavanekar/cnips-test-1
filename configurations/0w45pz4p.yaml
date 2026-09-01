@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 5d4fe341-e0d2-4b62-9e5f-9652a07ccfdf
+    name: 0W45pz4p
+    description: Description Configurations
+spec:
+    type: APIAccess
+    ref: 5d4fe341-e0d2-4b62-9e5f-9652a07ccfdf
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: app_9f3a2c7b1d84e6
+            client_secret: ENC[AESGCM:v1:ed0b6836aa5421594d0a2c308f94dc31b0e8c9e67c3b30f9127038afa04f2bae900086a259064e75e3e993b76cc3cd72a2edabf602109e8b9cb7]
+            req_scopes: Automation Scope
+            wellknownUrl: https://dev.cnips.eu/components

@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: agent-demo
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: agent-dest
+          uses: transformation/agent-demo@latest
+        - id: agent-dest
+          uses: transformation/agent-preprocessing@latest
+        - id: agent-dest
+          uses: transformation/ai-conversational-agent@latest
+        - id: agent-dest
+          uses: transformation/agent-dest@latest

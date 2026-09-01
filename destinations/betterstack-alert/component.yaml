@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: BETTERSTACK-ALERT
+spec:
+    type: destination
+    language: javascript
+    description: This will use to handle to create the incidents in the betterstack while the purge pipeline fails
+    config:
+        ALERT_URL: ENC[AESGCM:v1:de077904d93e13e8581b6990c493e6a855ae9e91f236a853ec36d10f509ecd1540c4f20824d29320bb116a7160b111fec1028be812a2d4143868e87a6df5c8de10a7a7aaec2a8184f3f9eb6deb5ecd31bfdc007c0615f5faf28285cf150e872c9b5472a0ed8b563265b71c]
+    signatureVersion: v3

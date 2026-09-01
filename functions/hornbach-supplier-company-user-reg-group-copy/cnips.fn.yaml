@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: hornbach-supplier-company-user-reg-group (Copy)
+spec:
+    runtime: js
+    config:
+        CLIENT_ID: 3d75f509-5904-434f-9c3b-2787cbf4b2d3
+        CLIENT_SECRET: ENC[AESGCM:v1:e789bfedd78ac39627fc85a87d531aa76cae9ed6dcaafa77ff521f0e6e3ae2a33d16cba89d1fb80ca3d94b0ff1906ba63d36ee9797698ebcfccddbf1fa425930]
+        DEFAULT_APP_CLIENT_ID: f50c66d4-1a04-44d1-8d4d-23c0d30c57e8
+        DOMAIN: qa.cidaas.de
+    apiAccessRef: 8c688170-7880-4d8f-82fe-7249e4cec6df
+    signatureVersion: v3
+    templateVersion: V3

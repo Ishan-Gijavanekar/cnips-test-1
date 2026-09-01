@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: f6a1c408-8cea-47cd-83eb-a93c00097644
+    name: testddapi
+    description: api
+spec:
+    type: APIAccess
+    ref: f6a1c408-8cea-47cd-83eb-a93c00097644
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:7d77613a88b024009697821834e2440bbd14552ab505ef36a3a1fb9fab64f1e0f03ed43d7f7228bdaea54f63d7e1ca91312b9971a07e5178b06be273388b77543b287f166afdbeae7f25b28753c28e0e9019c6a519e13da1b78754bd41463a4f93bb9bdc048b35d97c573d7e2146af6b9f956c54]
+            apikey_placeholder: apikey
+            apikey_placement: header

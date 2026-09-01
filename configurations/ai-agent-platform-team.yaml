@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 25635e99-fffa-4dce-8413-6bddc0395cb4
+    name: Ai agent  platform team
+spec:
+    type: APIAccess
+    ref: 25635e99-fffa-4dce-8413-6bddc0395cb4
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:c9ad7aed2edf4960ef59938040e247a3fda7b463495a0d0f9b7bc11d0fc41b2c983bda4a48fd89c0ae2911a6116ee40e4e2396e6bcc8ba13c870c7f6d6258d588957262994c121e1499046ede5cdddde50b96597dd35f775e34f258466ff2b6ca5bf54a923791aced1940f19738361215d363811]
+            apikey_placeholder: X-Gitlab-Token
+            apikey_placement: header

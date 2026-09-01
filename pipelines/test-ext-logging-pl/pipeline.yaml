@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test-ext-logging-pl
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: test-ext-logging-dest
+          uses: transformation/test-ext-logging@latest
+        - id: test-ext-logging-dest
+          uses: transformation/test-ext-logging-dest@1.0.0
+          with:
+            api_key: ENC[AESGCM:v1:a092a708ee8a04e4927f932c64ca0d9c14022a5fe4aacb223a1470e16c733d567e2af614a2d94a95e4cf29]

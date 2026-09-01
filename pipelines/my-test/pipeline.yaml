@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: my test
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: test
+          uses: transformation/mytest@latest
+        - id: test
+          uses: transformation/test@latest
+    variables:
+        - name: 834f49b0-d68c-45bf-8fe8-41584e6c62b7
+          ref: 834f49b0-d68c-45bf-8fe8-41584e6c62b7

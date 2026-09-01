@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 3be100b7-ea07-414f-91cf-cba37f0a7f2b
+    name: cfg-smoke-test-3be100b7-ea07-414f-91cf-cba37f0a7f2b
+spec:
+    type: APIKEY
+    ref: 3be100b7-ea07-414f-91cf-cba37f0a7f2b
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:92f2f28c577dea21b601903a0b68ebf9363676c52a59e2d2060b5ce06e3360aa87a4e1f8]
+            apikey_placeholder: smoke-test
+            apikey_placement: query

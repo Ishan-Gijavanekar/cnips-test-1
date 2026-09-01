@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: secure-email-validator
+spec:
+    runtime: go
+    description: Create a secure function that validates an email address from the input payload field 'email' and returns whether it is valid. This function handles user data so it must be secured with an API key
+    config:
+        apikeyheader: ENC[AESGCM:v1:a62e03aa8a5823a269569932fbf0364e16c18881cf267a4658237af333ac1a9ee10f59871c]
+        apikeyvalue: ENC[AESGCM:v1:8d4975c1a0509ec5d88d07a35931feee877e667c263b669e8969176d9b3859b0b43cfcef]
+    apiAccessRef: d3f50723-bd3a-4c17-adc9-5a067330dd82
+    signatureVersion: v2
+    templateVersion: V2

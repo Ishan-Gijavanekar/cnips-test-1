@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 0f3ebe03-66e8-45ef-98df-970a6805b314
+    name: ash101
+spec:
+    type: APIAccess
+    ref: 0f3ebe03-66e8-45ef-98df-970a6805b314
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails:
+            apikey: ENC[AESGCM:v1:3c5402590beb7aa343bb79953c7a54da594e24195d780fe08083484f8e4a357d5b1666d62dd9a042554b25bbeee6d7bb2e5b3c7679e4274e07fb674867d3cefa275e339e0e247728e5df64ec3aefbff75b38774b256e15fbff4e9250390194ac40db8da72595bd73912ca202fe9377394ece30e8]
+            apikey_placeholder: "101"
+            apikey_placement: header

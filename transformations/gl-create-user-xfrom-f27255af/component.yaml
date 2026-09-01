@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: GL_CREATE_USER_XFROM-f27255af
+spec:
+    type: transformation
+    language: javascript
+    config:
+        gitlab_token: ENC[AESGCM:v1:92ca820da2a478d075dff1f6dcd2a4e16f941834d98379fa2f7078ef2cbdf3469fff6044d5e20a488fbceaf63c6c075e20fb11f390cb]
+        gitlab_token1: ENC[AESGCM:v1:046e47cdb2fd0b8e3b1dc6ddc6260afb74a65160e656d309d9bddca73033e6519301e66e0ebfa49dd83d02703fb49ad59d84ee3fd0c0]
+        gitlab_url: ENC[AESGCM:v1:02936ffda7032597e23f2cf4a64fc370a21f1534de000e1b505f52c137ef9088f1024447a691d0370091d6364045]
+        groupId: gitlab
+    signatureVersion: v1
