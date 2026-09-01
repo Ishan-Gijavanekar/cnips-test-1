@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: '[WidasEnt] Cspace Error logging'
+spec:
+    type: destination
+    language: golang
+    description: Error logging for cnips automation
+    signatureVersion: v2

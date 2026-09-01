@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Destination-Python-V1
+spec:
+    type: destination
+    language: python
+    description: Destination-Python-V1
+    signatureVersion: v1

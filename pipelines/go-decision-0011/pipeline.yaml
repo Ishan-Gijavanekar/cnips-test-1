@@ -1,0 +1,20 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: go-decision-0011
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: go-dest-001-2
+          uses: transformation/go-src-001@latest
+        - id: go-dest-001-2
+          uses: native/decision@1
+        - id: go-dest-001-2
+          uses: transformation/go-uppercase@1.0.0
+        - id: go-dest-001-2
+          uses: transformation/go-charcount@1.0.0
+        - id: go-dest-001-2
+          uses: transformation/go-dest-001@1.0.0
+        - id: go-dest-001-2
+          uses: transformation/go-dest-001@1.0.0

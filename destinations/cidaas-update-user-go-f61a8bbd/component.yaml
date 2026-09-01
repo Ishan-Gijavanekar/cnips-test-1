@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Cidaas - Update User Go-f61a8bbd
+spec:
+    type: destination
+    language: golang
+    config:
+        base_url: ""
+        client_id: ""
+        client_secret: '[REDACTED]'
+    signatureVersion: v2

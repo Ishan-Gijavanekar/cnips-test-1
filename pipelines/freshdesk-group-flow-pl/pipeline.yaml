@@ -1,0 +1,44 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: freshdesk_group_flow_pl
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: fd-update-cidaas-group-dest
+          uses: transformation/freshdesk-with-code-src@latest
+        - id: fd-update-cidaas-group-dest
+          uses: native/decision@1
+        - id: fd-update-cidaas-group-dest
+          uses: native/decision@1
+        - id: fd-update-cidaas-group-dest
+          uses: native/decision@1
+        - id: fd-update-cidaas-group-dest
+          uses: native/decision@1
+        - id: fd-update-cidaas-group-dest
+          uses: native/decision@1
+        - id: fd-update-cidaas-group-dest
+          uses: transformation/fd-enrich-cidaasgroupinfo-xfrom@1.0.0
+        - id: fd-update-cidaas-group-dest
+          uses: transformation/fd-create-company-xform@1.0.0
+        - id: fd-update-cidaas-group-dest
+          uses: transformation/fd-update-company-xform@1.0.0
+        - id: fd-update-cidaas-group-dest
+          uses: transformation/fd-delete-company-xform@1.0.0
+        - id: fd-update-cidaas-group-dest
+          uses: transformation/fd-get-token-xform@1.0.0
+        - id: fd-update-cidaas-group-dest
+          uses: transformation/fd-update-cidaas-group-dest@1.0.0
+        - id: fd-update-cidaas-group-dest
+          uses: transformation/fd-invalid-event-dest@1.0.0
+        - id: fd-update-cidaas-group-dest
+          uses: transformation/fd-update-cidaas-group-dest@1.0.0
+        - id: fd-update-cidaas-group-dest
+          uses: transformation/fd-update-cidaas-group-dest@1.0.0
+        - id: fd-update-cidaas-group-dest
+          uses: transformation/fd-update-cidaas-group-dest@1.0.0
+        - id: fd-update-cidaas-group-dest
+          uses: transformation/fd-update-cidaas-group-dest@1.0.0
+        - id: fd-update-cidaas-group-dest
+          uses: transformation/fd-update-cidaas-group-dest@1.0.0

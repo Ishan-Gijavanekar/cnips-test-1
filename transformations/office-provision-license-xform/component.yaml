@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Office-provision-license-xform
+spec:
+    type: transformation
+    language: javascript
+    config:
+        groupId: Office365
+    signatureVersion: v1

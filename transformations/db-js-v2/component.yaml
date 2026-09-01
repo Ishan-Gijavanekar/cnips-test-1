@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: DB-Js-V2
+spec:
+    type: decision
+    language: javascript
+    description: DB-Js-V2
+    signatureVersion: v2

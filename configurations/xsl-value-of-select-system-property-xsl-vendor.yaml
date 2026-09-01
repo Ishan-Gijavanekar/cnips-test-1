@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: b30272a6-8114-4141-b84f-566e50fafbb3
+    name: <xsl:value-of select="system-property('xsl:vendor')"/><!--
+    description: Description Configurations
+spec:
+    type: APIAccess
+    ref: b30272a6-8114-4141-b84f-566e50fafbb3
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: app_9f3a2c7b1d84e6
+            client_secret: '[REDACTED]'
+            req_scopes: Automation Scope
+            wellknownUrl: https://dev.cnips.eu/components

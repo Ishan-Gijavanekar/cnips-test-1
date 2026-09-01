@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: golang-388b4703-3858-459d-bd0e-48af3b564d56
+spec:
+    type: source
+    sourceType: STANDARD
+    apiAccessRef: b357d330-f10e-470b-ba1c-f3028fdd7a66

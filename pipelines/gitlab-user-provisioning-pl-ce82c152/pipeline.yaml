@@ -1,0 +1,62 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: gitlab_user_provisioning_pl-ce82c152
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gitlab-user-provisioning-src-f354d1ea@latest
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-create-user-xfrom-f27255af@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-create-user-xfrom-f27255af@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-create-user-xfrom-f27255af@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-create-user-xfrom-f27255af@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-create-user-xfrom-f27255af@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-update-user-in-cidaas-dest-3488f027@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-update-user-in-cidaas-dest-3488f027@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-update-user-in-cidaas-dest-3488f027@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-update-user-in-cidaas-dest-3488f027@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-update-user-in-cidaas-dest-3488f027@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-update-user-in-cidaas-dest-3488f027@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-update-user-in-cidaas-dest-3488f027@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-update-user-in-cidaas-dest-3488f027@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-update-user-in-cidaas-dest-3488f027@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-update-user-in-cidaas-dest-3488f027@1.0.0
+        - id: gl-update-user-in-cidaas-dest-3488f027
+          uses: transformation/gl-update-user-in-cidaas-dest-3488f027@1.0.0

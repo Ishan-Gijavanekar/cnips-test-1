@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: GlobalVariable
+metadata:
+    name: testttt-copy
+spec:
+    key: testttt_copy
+    value: 7862736862637362736a626a736231323334
+    workspaceId: default

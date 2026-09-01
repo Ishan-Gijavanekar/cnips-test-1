@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: templatetest-001
+spec:
+    type: decision
+    language: javascript
+    signatureVersion: v3

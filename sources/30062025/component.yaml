@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: "30062025"
+spec:
+    type: source
+    sourceType: STANDARD
+    description: "30062025"
+    apiAccessRef: 25d93fd2-2b92-4d73-82ac-8be6bab8bd49

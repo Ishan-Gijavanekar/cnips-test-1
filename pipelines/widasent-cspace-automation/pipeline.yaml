@@ -1,0 +1,24 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: '[WidasEnt] Cspace automation'
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: widasent-cspace-error-logging
+          uses: transformation/widasent-cspace-automation@latest
+        - id: widasent-cspace-error-logging
+          uses: transformation/widasent-getcidaasuserbysub@latest
+        - id: widasent-cspace-error-logging
+          uses: transformation/widasent-generatecidaastoken@latest
+        - id: widasent-cspace-error-logging
+          uses: native/decision@1
+        - id: widasent-cspace-error-logging
+          uses: transformation/cspace-generategroupcreationanduserassignmentpayload@latest
+        - id: widasent-cspace-error-logging
+          uses: transformation/cspace-createusergroupandassignuser@latest
+        - id: widasent-cspace-error-logging
+          uses: transformation/widasent-logging-event@1.0.0
+        - id: widasent-cspace-error-logging
+          uses: transformation/widasent-cspace-error-logging@latest

@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: DB-Go-V2
+spec:
+    type: decision
+    language: golang
+    description: DB-Go-V2
+    signatureVersion: v2

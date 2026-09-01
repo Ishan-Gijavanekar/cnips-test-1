@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 0b6bce7e-e7b2-4b04-b4f2-0cb22be1c77b
+    name: createtest
+spec:
+    type: APIAccess
+    ref: 0b6bce7e-e7b2-4b04-b4f2-0cb22be1c77b
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

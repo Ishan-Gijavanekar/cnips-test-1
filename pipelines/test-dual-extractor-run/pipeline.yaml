@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test-dual-extractor-run
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: test-dual-extractor-run-2
+          uses: transformation/test-dual-extractor-run@latest
+        - id: test-dual-extractor-run-2
+          uses: transformation/test-dual-extractor-run@1.0.0

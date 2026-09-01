@@ -1,0 +1,23 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: cnips-agent-gitlab
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: t-g-test-ed-2
+          uses: transformation/cnips-issues@latest
+        - id: t-g-test-ed-2
+          uses: transformation/cnips-pre-agent@latest
+        - id: t-g-test-ed-2
+          uses: transformation/ai-conversational-agent@latest
+        - id: t-g-test-ed-2
+          uses: transformation/cnips-post-agent@latest
+        - id: t-g-test-ed-2
+          uses: transformation/t-g-test-ed-2@latest
+    variables:
+        - name: c967d814-dd20-4bf8-b103-135a0e3ba248
+          ref: c967d814-dd20-4bf8-b103-135a0e3ba248
+        - name: 97dfb8bb-4809-49d6-bb93-470e2b428187
+          ref: 97dfb8bb-4809-49d6-bb93-470e2b428187

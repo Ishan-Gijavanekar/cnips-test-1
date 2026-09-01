@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: ash01
+spec:
+    runtime: js
+    apiAccessRef: 74cdc5da-aa0b-442a-883e-56eaf3b9aa46
+    signatureVersion: v2
+    templateVersion: V2

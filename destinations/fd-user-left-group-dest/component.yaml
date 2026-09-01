@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: FD_USER_LEFT_GROUP_DEST
+spec:
+    type: destination
+    language: javascript
+    signatureVersion: v1

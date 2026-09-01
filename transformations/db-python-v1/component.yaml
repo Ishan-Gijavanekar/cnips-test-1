@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: DB-Python-V1
+spec:
+    type: decision
+    language: python
+    description: DB-Python-V1
+    signatureVersion: v1

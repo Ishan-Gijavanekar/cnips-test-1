@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Create-Destinations12345
+spec:
+    type: destination
+    language: javascript
+    description: This is for test
+    signatureVersion: v3

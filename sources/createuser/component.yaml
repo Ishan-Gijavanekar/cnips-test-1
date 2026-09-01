@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: createuser
+spec:
+    type: source
+    sourceType: STANDARD
+    apiAccessRef: 98d12766-159d-4ea2-82fe-375086ee6789

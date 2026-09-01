@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 7a4f7125-9848-4708-a409-77cd0a92dc2c
+    name: '%3CscrIpt%3Ealert%281%29%3B%3C%2FscRipt%3E'
+    description: Description Configurations
+spec:
+    type: APIAccess
+    ref: 7a4f7125-9848-4708-a409-77cd0a92dc2c
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: app_9f3a2c7b1d84e6
+            client_secret: '[REDACTED]'
+            req_scopes: Automation Scope
+            wellknownUrl: https://dev.cnips.eu/components

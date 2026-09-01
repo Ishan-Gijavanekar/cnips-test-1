@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: sdfsdfd
+spec:
+    runtime: go
+    apiAccessRef: 8c688170-7880-4d8f-82fe-7249e4cec6df
+    signatureVersion: v2
+    templateVersion: V2

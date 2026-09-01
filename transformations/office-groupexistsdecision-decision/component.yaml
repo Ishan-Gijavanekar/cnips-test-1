@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Office-GroupExistsDecision-Decision
+spec:
+    type: decision
+    language: javascript
+    config:
+        groupId: Office365
+    signatureVersion: v1

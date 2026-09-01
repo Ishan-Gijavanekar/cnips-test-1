@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 675204a9-4c7a-4628-a190-028905b2de6c
+    name: '[cspace]HubspotAutomationConfig'
+    description: Configuration for hubspot company and contact creation / linking
+spec:
+    type: APIAccess
+    ref: 675204a9-4c7a-4628-a190-028905b2de6c
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: frozen-login-form
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: javascript
+    config:
+        apikey: '[REDACTED]'
+    apiAccessRef: a8d3c4c4-bbc4-42a6-8555-38ee97e0ab43
+    signatureVersion: v1

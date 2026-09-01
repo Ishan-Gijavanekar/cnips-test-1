@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: b1240b36-a2ff-4d16-8cf9-32c4f54239a9
+    name: Configuration-TOTP-Query
+    description: Configuration-TOTP-Query
+spec:
+    type: APIAccess
+    ref: b1240b36-a2ff-4d16-8cf9-32c4f54239a9
+    workspaceId: default
+    apiAccess:
+        apiAccessType: TOTP
+        totpDetails:
+            totp_placeholder: QUERY
+            totp_placement: query
+            totpkey: 9bc807f0ff2b13042ee93213f176c689786b4e3300d4e77811c303213b505c612e917166d7df632ff9177d376ca35649bdb2c3c6fe9a09f82bb70ab86f82bb568cadac6444a4934e558c29efe19f4c79

@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test-retry-pipeline
+spec:
+    trigger:
+        type: http
+    retry:
+        maxAttempts: 3
+        backoffSec: 60
+    steps:
+        - id: retry-pipeline-dummy-js
+          uses: transformation/retry-pipeline-js@latest
+        - id: retry-pipeline-dummy-js
+          uses: transformation/test-js-failure-retry-pipeline@1.0.0
+        - id: retry-pipeline-dummy-js
+          uses: transformation/retry-pipeline-dummy-js@1.0.0

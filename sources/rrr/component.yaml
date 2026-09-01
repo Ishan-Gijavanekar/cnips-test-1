@@ -1,0 +1,7 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: rrr
+spec:
+    type: source
+    apiAccessRef: a9ae346b-2ffb-4958-8da0-61cd2ce0eed0

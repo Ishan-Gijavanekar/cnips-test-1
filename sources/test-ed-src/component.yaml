@@ -1,0 +1,7 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: TEST-ED-SRC
+spec:
+    type: source
+    apiAccessRef: e45a57d6-8d28-477b-aacb-30cd73232d9a

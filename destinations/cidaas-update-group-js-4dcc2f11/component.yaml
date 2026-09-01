@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Cidaas - Update Group JS-4dcc2f11
+spec:
+    type: destination
+    language: javascript
+    config:
+        base_url: ""
+        client_id: ""
+        client_secret: '[REDACTED]'
+    signatureVersion: v1

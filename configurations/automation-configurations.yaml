@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 0d71be72-1c06-4db5-bc81-4175310a9985
+    name: Automation Configurations;
+    description: Description Configurations
+spec:
+    type: APIAccess
+    ref: 0d71be72-1c06-4db5-bc81-4175310a9985
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: app_9f3a2c7b1d84e6
+            client_secret: '[REDACTED]'
+            req_scopes: Automation Scope
+            wellknownUrl: https://dev.cnips.eu/components

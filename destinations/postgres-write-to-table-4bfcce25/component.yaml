@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Postgres - Write to table-4bfcce25
+spec:
+    type: destination
+    language: javascript
+    config:
+        database: ""
+        host: ""
+        password: '[REDACTED]'
+        username: ""
+    signatureVersion: v1

@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: JS-CIDAAS-SRC
+spec:
+    type: source
+    sourceType: STANDARD
+    apiAccessRef: 195c75b9-e63e-4d83-8ff6-8cafe45b25c9

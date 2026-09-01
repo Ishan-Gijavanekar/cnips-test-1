@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: ash unsecured
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: ash-all-js
+          uses: transformation/unsecured-source@latest
+        - id: ash-all-js
+          uses: transformation/throw-error-tx@1.0.0
+        - id: ash-all-js
+          uses: transformation/ash-all-js@latest

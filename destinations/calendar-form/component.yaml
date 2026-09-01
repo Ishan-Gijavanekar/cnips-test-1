@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: calendar-form
+spec:
+    type: destination
+    language: javascript
+    signatureVersion: v2

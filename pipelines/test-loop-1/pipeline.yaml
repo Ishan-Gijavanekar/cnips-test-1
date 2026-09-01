@@ -1,0 +1,25 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test-loop-1
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: test-dest-py
+          uses: transformation/test-src-py@latest
+        - id: test-dest-py
+          uses: native/loop@1
+          with:
+            allowFailures: true
+            arrayField: items
+            batchSize: 1
+            concurrency: 1
+            edgeMap: []
+            nestedBlocks: []
+            nestedEndNodes: []
+            timeout: 1000
+        - id: test-dest-py
+          uses: transformation/test-trans-py@latest
+        - id: test-dest-py
+          uses: transformation/test-dest-py@latest

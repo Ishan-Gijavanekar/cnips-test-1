@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: retry-go
+spec:
+    trigger:
+        type: http
+    retry:
+        maxAttempts: 3
+        backoffSec: 120
+    steps:
+        - id: dest-retry-go
+          uses: transformation/retry-go-src@latest
+        - id: dest-retry-go
+          uses: transformation/trans-retry-go@latest
+        - id: dest-retry-go
+          uses: transformation/dest-retry-go@latest

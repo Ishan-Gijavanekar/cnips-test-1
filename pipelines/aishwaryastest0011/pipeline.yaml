@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: aishwaryastest0011
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: javascript-4e997dc9-969c-4b84-8318-bf08a964fe10
+          uses: transformation/t-g-new-ui@latest
+        - id: javascript-4e997dc9-969c-4b84-8318-bf08a964fe10
+          uses: transformation/javascript-4e997dc9-969c-4b84-8318-bf08a964fe10@latest

@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: t-g-sc-11
+spec:
+    type: source
+    sourceType: STANDARD
+    description: 'asdasfafg '
+    apiAccessRef: 983f7ceb-c47d-458f-a899-c656909e1fd9

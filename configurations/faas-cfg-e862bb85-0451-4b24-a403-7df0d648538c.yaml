@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: e862bb85-0451-4b24-a403-7df0d648538c
+    name: faas-cfg-e862bb85-0451-4b24-a403-7df0d648538c
+spec:
+    type: APIAccess
+    ref: e862bb85-0451-4b24-a403-7df0d648538c
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

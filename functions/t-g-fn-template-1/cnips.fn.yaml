@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: t-g-fn-template-1
+spec:
+    runtime: js
+    description: sadasd
+    config:
+        s: s
+    apiAccessRef: 615794cc-7c44-4532-8d0e-e9746890a9e2
+    signatureVersion: v3
+    templateVersion: V3

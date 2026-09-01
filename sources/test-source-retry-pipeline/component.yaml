@@ -1,0 +1,7 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test source retry pipeline
+spec:
+    type: source
+    apiAccessRef: 12654308-7ca2-43b8-8afd-4b9a6815f40b

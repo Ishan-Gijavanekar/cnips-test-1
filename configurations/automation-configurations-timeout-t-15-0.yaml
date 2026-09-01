@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 9779fde2-70cc-4fe3-b874-b3ab2f27f422
+    name: Automation Configurations|timeout /T 15.0
+    description: Description Configurations
+spec:
+    type: APIAccess
+    ref: 9779fde2-70cc-4fe3-b874-b3ab2f27f422
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: app_9f3a2c7b1d84e6
+            client_secret: '[REDACTED]'
+            req_scopes: Automation Scope
+            wellknownUrl: https://dev.cnips.eu/components

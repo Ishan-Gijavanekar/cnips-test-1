@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: gitlab_group_left_dest
+spec:
+    type: destination
+    language: javascript
+    config:
+        gitlab_token: '[REDACTED]'
+    signatureVersion: v1

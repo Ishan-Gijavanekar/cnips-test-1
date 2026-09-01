@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: t-g-sc-12
+spec:
+    type: source
+    sourceType: STANDARD
+    description: asaf
+    apiAccessRef: b5c17499-6c9b-4c86-bef9-872ef058ed9b

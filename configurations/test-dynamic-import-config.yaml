@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: bfe8dfc2-0f52-440b-bf47-e8b7973966ee
+    name: test-dynamic-import-config
+spec:
+    type: APIAccess
+    ref: bfe8dfc2-0f52-440b-bf47-e8b7973966ee
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

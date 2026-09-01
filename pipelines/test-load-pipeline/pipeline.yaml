@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test-load-pipeline
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: test-load-dest
+          uses: transformation/dummy@latest
+        - id: test-load-dest
+          uses: transformation/test-load-dest@latest

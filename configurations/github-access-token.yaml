@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: d716c681-9793-4091-b2b8-dfc97c831812
+    name: github_access_token
+    description: read access token
+spec:
+    type: APIAccess
+    ref: d716c681-9793-4091-b2b8-dfc97c831812
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

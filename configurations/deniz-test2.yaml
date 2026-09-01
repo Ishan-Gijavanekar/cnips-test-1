@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 0eb5f87c-8cd1-4b35-8a4c-7b9b305ef3c2
+    name: deniz test2
+spec:
+    type: APIAccess
+    ref: 0eb5f87c-8cd1-4b35-8a4c-7b9b305ef3c2
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

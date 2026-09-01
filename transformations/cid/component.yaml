@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: cid
+spec:
+    type: transformation
+    language: javascript
+    description: This is a demo description for standard source
+    config:
+        asd: dfa
+        client_id: swc
+    signatureVersion: v3

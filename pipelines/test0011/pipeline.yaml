@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test0011
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: go-log-response
+          uses: transformation/js-extractor-001@latest
+        - id: go-log-response
+          uses: transformation/go-log-response@1.0.0

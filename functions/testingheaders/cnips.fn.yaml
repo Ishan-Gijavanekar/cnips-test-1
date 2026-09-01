@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: testingHeaders
+spec:
+    runtime: js
+    config:
+        testcfg: testing
+    signatureVersion: v3
+    templateVersion: V3

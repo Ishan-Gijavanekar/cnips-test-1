@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 51a66d97-f04d-48d1-b4ee-c2a6164eb929
+    name: t-g-cn-totp1
+    description: asdas
+spec:
+    type: APIAccess
+    ref: 51a66d97-f04d-48d1-b4ee-c2a6164eb929
+    workspaceId: default
+    apiAccess:
+        apiAccessType: TOTP
+        totpDetails:
+            totp_placeholder: val
+            totp_placement: header
+            totpkey: eebc5e538aa53b0abb45749d61408a6b09cb02a6770d6749fcda1eee10297752e73c0f1152050d5f896886c2635b004bd59dada3119a804bfc3c67dea5b0f511a327cdec491d31342f60f37f7ab878ce

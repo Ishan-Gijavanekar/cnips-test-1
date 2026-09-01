@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 2cfda5ab-5408-4a29-bc5e-02d69fd11d22
+    name: t-g-demo-paresh-cidaasOuath2
+spec:
+    type: APIAccess
+    ref: 2cfda5ab-5408-4a29-bc5e-02d69fd11d22
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: "123213123123"
+            client_secret: '[REDACTED]'
+            wellknownUrl: https://automation-test.dev.cidaas.eu/.well-known/openid-configuration

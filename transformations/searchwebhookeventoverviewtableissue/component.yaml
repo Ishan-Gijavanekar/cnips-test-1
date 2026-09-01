@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: SearchWebhookEventOverviewTableIssue
+spec:
+    type: transformation
+    language: javascript
+    config:
+        automation_project_id: "2914"
+    signatureVersion: v2

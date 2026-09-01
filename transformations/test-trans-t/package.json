@@ -1,0 +1,12 @@
+{
+  "name": "js-component",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "24.0.7"
+  },
+  "dependencies": {
+    "@cnips/simplelog": "1.0.0"
+  }
+}

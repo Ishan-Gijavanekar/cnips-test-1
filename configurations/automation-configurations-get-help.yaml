@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: adb8de18-deeb-48ed-a666-0ea7774e8b1c
+    name: 'Automation Configurations;get-help #'
+    description: Description Configurations
+spec:
+    type: APIAccess
+    ref: adb8de18-deeb-48ed-a666-0ea7774e8b1c
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: app_9f3a2c7b1d84e6
+            client_secret: '[REDACTED]'
+            req_scopes: Automation Scope
+            wellknownUrl: https://dev.cnips.eu/components

@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: 'source-quota-exec-time '
+    slug: source-quota-exec-time-2
+spec:
+    type: source
+    apiAccessRef: f0e353c1-99a3-4e72-96ad-92418d07b262

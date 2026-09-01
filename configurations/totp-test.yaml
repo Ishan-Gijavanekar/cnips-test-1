@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 037ce827-5c16-418c-9834-1305d4900ac7
+    name: totp test
+    description: desc
+spec:
+    type: APIAccess
+    ref: 037ce827-5c16-418c-9834-1305d4900ac7
+    workspaceId: default
+    apiAccess:
+        apiAccessType: TOTP
+        totpDetails:
+            totp_placeholder: key
+            totp_placement: header
+            totpkey: e65f21c34bf1d14ae2a31a80775d3e7f149ce15ee1586ec02efce86cee71f19d723f3c260d64be5ab5b9d8028e8657e084ed8b1cd44124f3106b47ed92dee3d06e2a6bbbe79c17cafc45c22743a6606255ddc9684586e176815838534c802c5df9d9046c9e82f62909b2685652ec752a4a5ba75aa913a5e3f89235741353bac76a60be875a4f8a0101620cb2be9c197e560b6a39ed272d94f1a8cb9bf284a123812f982042a856cd0bcc70d5ec3c7f6f8938181b3cbfa4bd786393e1

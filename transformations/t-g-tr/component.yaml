@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: t-g-tr
+spec:
+    type: transformation
+    language: javascript
+    description: sa
+    config:
+        d: d
+    signatureVersion: v3

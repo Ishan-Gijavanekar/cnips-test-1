@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: cddcdsdsc
+spec:
+    type: transformation
+    language: javascript
+    config:
+        asdbfdbdfb: '[REDACTED]'
+    signatureVersion: v3

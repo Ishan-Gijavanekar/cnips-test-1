@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: js-validate-schema-pl
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: js-schema-dest
+          uses: transformation/js-schema-src@latest
+        - id: js-schema-dest
+          uses: transformation/js-schema-dest@1.0.0

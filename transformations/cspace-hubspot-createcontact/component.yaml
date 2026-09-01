@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: '[Cspace]Hubspot_CreateContact'
+spec:
+    type: transformation
+    language: golang
+    description: Creating a new contact in Hubspot
+    config:
+        hubspotBaseURL: '[REDACTED]'
+        hubspotToken: '[REDACTED]'
+    signatureVersion: v2

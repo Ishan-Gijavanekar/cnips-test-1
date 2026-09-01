@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: '[Cspace]Hubspot_CheckForAlreadyExistingContact'
+spec:
+    type: decision
+    language: golang
+    description: Checks if a Contact based on a given email already exists
+    config:
+        hubspotBaseURL: '[REDACTED]'
+        hubspotToken: '[REDACTED]'
+    signatureVersion: v2

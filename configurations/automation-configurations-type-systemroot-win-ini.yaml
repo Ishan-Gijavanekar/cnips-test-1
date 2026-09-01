@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: a84beac2-1833-4bf9-bcc9-f475d52b2ad2
+    name: Automation Configurations|type %SYSTEMROOT%\win.ini
+    description: Description Configurations
+spec:
+    type: APIAccess
+    ref: a84beac2-1833-4bf9-bcc9-f475d52b2ad2
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: app_9f3a2c7b1d84e6
+            client_secret: '[REDACTED]'
+            req_scopes: Automation Scope
+            wellknownUrl: https://dev.cnips.eu/components

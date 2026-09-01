@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: Cidaas - Delete Group JS-251c2572-91ba-418d-affd-bc3a901788ef
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: javascript-21a3d622-420b-4684-93c4-a4d726902d30
+          uses: transformation/javascript-9f1b89a2-d2f1-42ce-81a9-65da25c18a25@latest
+        - id: javascript-21a3d622-420b-4684-93c4-a4d726902d30
+          uses: transformation/javascript-21a3d622-420b-4684-93c4-a4d726902d30@latest

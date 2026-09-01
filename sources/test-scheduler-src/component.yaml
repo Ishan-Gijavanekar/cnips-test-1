@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test-scheduler-src
+spec:
+    type: source
+    sourceType: STANDARD
+    language: javascript
+    config:
+        d: d
+    signatureVersion: v1

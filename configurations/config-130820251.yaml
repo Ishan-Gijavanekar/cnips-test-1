@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 615794cc-7c44-4532-8d0e-e9746890a9e2
+    name: Config-130820251
+    description: Config-130820251
+spec:
+    type: APIAccess
+    ref: 615794cc-7c44-4532-8d0e-e9746890a9e2
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

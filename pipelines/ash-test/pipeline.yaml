@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: ash test
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: test1-source
+          uses: transformation/test1-source@latest

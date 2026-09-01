@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: FD_INVALID_EVENT_DEST-77af972f
+spec:
+    type: destination
+    language: javascript
+    signatureVersion: v1

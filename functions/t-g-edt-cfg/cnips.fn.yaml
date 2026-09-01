@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: t-g-edt-cfg
+spec:
+    runtime: go
+    config:
+        hello: testing
+    apiAccessRef: ce333749-752f-43f5-8136-b5f2d138c2fc
+    signatureVersion: v2
+    templateVersion: V2

@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: Test-Func1234
+spec:
+    runtime: js
+    signatureVersion: v3
+    templateVersion: V3

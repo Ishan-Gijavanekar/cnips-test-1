@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: t-g-ext-js
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: golang
+    description: sdafsdf
+    config:
+        asfd: asd
+    apiAccessRef: 51a66d97-f04d-48d1-b4ee-c2a6164eb929
+    signatureVersion: v2

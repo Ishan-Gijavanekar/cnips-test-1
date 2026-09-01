@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: demo-1
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: test-demo1
+          uses: transformation/test-demo1@latest
+        - id: test-demo1
+          uses: transformation/tx-demo-1@latest
+        - id: test-demo1
+          uses: transformation/test-demo1@latest

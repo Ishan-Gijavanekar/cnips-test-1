@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: cd707a64-2eb2-4f47-a0fb-0eef22906ef0
+    name: t-g-cn-totp
+    description: set new
+spec:
+    type: APIAccess
+    ref: cd707a64-2eb2-4f47-a0fb-0eef22906ef0
+    workspaceId: default
+    apiAccess:
+        apiAccessType: TOTP
+        totpDetails:
+            totp_placeholder: asdasd
+            totp_placement: header
+            totpkey: b16803d6e2d5bc60724cb96c00aff4bc3236ca2b5affd039de023e7bd17a05d7ffb839dc7e2cbd95c5e8354f51f5c81ff95da891ed24288f740820439584bad86c8aa68e8ac403238ecc0e0f92ddbcc7

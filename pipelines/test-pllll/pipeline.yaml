@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: Test-PLLLL
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: just-log
+          uses: transformation/test-ext-script-saved@latest
+        - id: just-log
+          uses: transformation/just-log@latest

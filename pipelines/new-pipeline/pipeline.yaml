@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: New Pipeline
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: cidaas-create-app-js-591470dc
+          uses: transformation/js-schema-src@latest
+        - id: cidaas-create-app-js-591470dc
+          uses: transformation/cidaas-create-app-js-591470dc@latest
