@@ -1,0 +1,18 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: buildPipelineForAllProjects
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: go-log-response
+          uses: transformation/testpipeline@latest
+        - id: go-log-response
+          uses: transformation/getservicenamesfromreleaseversions@1.0.0
+        - id: go-log-response
+          uses: transformation/getprojectidsfromservicenames@1.0.0
+        - id: go-log-response
+          uses: transformation/buildpipelinesusingprojectids@1.0.0
+        - id: go-log-response
+          uses: transformation/go-log-response@1.0.0

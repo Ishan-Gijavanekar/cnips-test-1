@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: just-log-291b0666
+spec:
+    type: destination
+    language: javascript
+    config:
+        API_BASE_URL: ""
+        CLIENT_ID: ""
+        CLIENT_SECRET: '[REDACTED]'
+    signatureVersion: v2

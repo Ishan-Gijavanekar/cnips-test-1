@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test-load-extractor
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: javascript
+    apiAccessRef: 268e5a39-118a-4cb8-ad91-35f277f71228
+    signatureVersion: v1

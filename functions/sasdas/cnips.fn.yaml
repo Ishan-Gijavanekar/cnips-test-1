@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: sasdas
+spec:
+    runtime: js
+    description: sadas
+    config:
+        s: ss
+    apiAccessRef: 41695003-353a-4c01-83d0-7231a817e713
+    signatureVersion: v3
+    templateVersion: V3

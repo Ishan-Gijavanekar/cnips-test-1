@@ -1,0 +1,23 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test-dynamic-imports
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: dynamic-import-dest
+          uses: transformation/dynamic-import-src@latest
+        - id: dynamic-import-dest
+          uses: transformation/test-dynamic-imports@2.0.0
+        - id: dynamic-import-dest
+          uses: transformation/dynamic-import-dest@latest
+    variables:
+        - name: 76be4936-ad4d-4248-a770-62832ee36c31
+          ref: 76be4936-ad4d-4248-a770-62832ee36c31
+        - name: 37085af7-d191-49fa-a945-2ff0b645a26d
+          ref: 37085af7-d191-49fa-a945-2ff0b645a26d
+        - name: 7ffe33e4-59ad-48bf-a680-33957390b9c6
+          ref: 7ffe33e4-59ad-48bf-a680-33957390b9c6
+        - name: 9b2975b5-37d1-4133-af81-430c33b01ea7
+          ref: 9b2975b5-37d1-4133-af81-430c33b01ea7

@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: cidaas-token-introspector(2)
+spec:
+    runtime: go
+    description: Validates cidaas access tokens via the introspection endpoint and returns the sub and email claims when the token is active.
+    config:
+        introspectionurl: qa.cidaas.eu
+        timeoutseconds: "30"
+    apiAccessRef: e81d644f-76d9-4071-a95d-0c19afd44708
+    signatureVersion: v2
+    templateVersion: V2

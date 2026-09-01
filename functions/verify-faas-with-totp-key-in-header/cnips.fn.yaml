@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: Verify FAAS with TOTP key in header
+spec:
+    runtime: js
+    apiAccessRef: 9ea982db-1b88-4dcf-a774-7212c18dd58e
+    signatureVersion: v1
+    templateVersion: V1

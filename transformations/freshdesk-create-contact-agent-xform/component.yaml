@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: freshdesk_create_contact_agent_xform
+spec:
+    type: transformation
+    language: javascript
+    config:
+        api_key: '[REDACTED]'
+        base_url: https://qa.cidaas.de
+        company_id: "204000052118"
+        contactRoles: TECHNICAL_ADMIN,TICKET_REPORTER
+        customerGroupType: Customers
+        freshdesk_url: https://widastechnologiesgmbh-help.freshdesk.com
+        groupId: freshdesk
+    signatureVersion: v1

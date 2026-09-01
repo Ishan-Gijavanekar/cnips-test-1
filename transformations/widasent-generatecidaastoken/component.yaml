@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: '[WidasEnt]GenerateCidaasToken'
+spec:
+    type: transformation
+    language: golang
+    description: Generating valid cidaas token for pipeline
+    config:
+        cidaasBaseURL: https://qa.cidaas.de
+        cidaasClientID: '[REDACTED]'
+        cidaasClientSecret: '[REDACTED]'
+    signatureVersion: v2

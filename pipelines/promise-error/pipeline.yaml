@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: promise-error
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: test-new-js
+          uses: transformation/manual-api-source@latest
+        - id: test-new-js
+          uses: transformation/js-promise-error@1.0.0
+        - id: test-new-js
+          uses: transformation/test-new-js@1.0.0

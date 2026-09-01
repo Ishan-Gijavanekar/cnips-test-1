@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test-app-go12345
+spec:
+    type: approval
+    language: golang
+    description: testing approval in go
+    config:
+        test: test
+    signatureVersion: v2

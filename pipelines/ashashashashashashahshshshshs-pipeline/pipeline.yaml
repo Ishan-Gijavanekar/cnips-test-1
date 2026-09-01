@@ -1,0 +1,18 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: ashashashashashashahshshshshs Pipeline
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: template-dest
+          uses: transformation/t-g-sc-13@latest
+        - id: template-dest
+          uses: transformation/ash-tests-things@latest
+        - id: template-dest
+          uses: native/decision@1
+        - id: template-dest
+          uses: transformation/ash-tests-things@latest
+        - id: template-dest
+          uses: transformation/template-dest@latest

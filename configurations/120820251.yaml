@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 1fbfd0f2-c3c9-4609-9dcf-4b54e51707e2
+    name: "120820251"
+spec:
+    type: APIAccess
+    ref: 1fbfd0f2-c3c9-4609-9dcf-4b54e51707e2
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

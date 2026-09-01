@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: src-err-processing-c24db2b2
+spec:
+    type: source
+    sourceType: STANDARD
+    apiAccessRef: 9e755e27-f637-48f4-b244-6b9ee4c71c56

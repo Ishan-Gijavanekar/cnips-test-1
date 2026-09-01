@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: Demo standard source trigger
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: t-g-scr-01
+          uses: transformation/demo-standard-source@latest
+        - id: t-g-scr-01
+          uses: transformation/t-g-scr-01@latest

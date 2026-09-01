@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: '[WidasEnt]GetCidaasUserBySub'
+spec:
+    type: transformation
+    language: golang
+    description: Fetching user data based on sub
+    config:
+        cidaasBaseURL: https://qa.cidaas.de
+    signatureVersion: v2

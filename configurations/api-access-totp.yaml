@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 9ea982db-1b88-4dcf-a774-7212c18dd58e
+    name: API Access TOTP
+    description: This is new configuration created for of configuration type API Access and Access Type as TOTP
+spec:
+    type: APIAccess
+    ref: 9ea982db-1b88-4dcf-a774-7212c18dd58e
+    workspaceId: default
+    apiAccess:
+        apiAccessType: TOTP
+        totpDetails:
+            totp_placeholder: "231232312121312312"
+            totp_placement: header
+            totpkey: 2ecf901e25cb4007e0a4e6e520a664dcc6883ae78edd0c7de6812c22a3b043484e3cafc24d4fdd46b5f27243476fc771221c382a92000a561714df8dc53fbbdbd987bfd480f0fc06da9afbe2d1fb4b56

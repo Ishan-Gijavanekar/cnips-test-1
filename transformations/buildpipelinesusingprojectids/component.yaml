@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: buildPipelinesUsingProjectIds
+spec:
+    type: transformation
+    language: golang
+    config:
+        branchNames: dev-v3,dev-v2,cm.test
+        gitlabBaseURL: '[REDACTED]'
+        gitlabToken: '[REDACTED]'
+    signatureVersion: v2

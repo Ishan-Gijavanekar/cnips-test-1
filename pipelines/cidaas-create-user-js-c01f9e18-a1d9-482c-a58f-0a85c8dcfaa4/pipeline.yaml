@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: Cidaas - Create User JS-c01f9e18-a1d9-482c-a58f-0a85c8dcfaa4
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: javascript-54f7b35a-4f72-479d-bffd-d35f1fdadae3
+          uses: transformation/javascript-f3be3502-8a6d-4c53-a850-f3dbfb20c25c@latest
+        - id: javascript-54f7b35a-4f72-479d-bffd-d35f1fdadae3
+          uses: transformation/javascript-54f7b35a-4f72-479d-bffd-d35f1fdadae3@latest

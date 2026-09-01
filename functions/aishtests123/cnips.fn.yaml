@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: aishtests123
+spec:
+    runtime: js
+    config:
+        efwefwfew: fewefefw
+        scadsqdsdvsss: dccc
+    signatureVersion: v3
+    templateVersion: V3

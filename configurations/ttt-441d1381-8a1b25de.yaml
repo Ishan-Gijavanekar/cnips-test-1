@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: f98b49ae-56f6-4996-a0e6-9c4b8a1b25de
+    name: ttt-441d1381-8a1b25de
+spec:
+    type: APIAccess
+    ref: f98b49ae-56f6-4996-a0e6-9c4b8a1b25de
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

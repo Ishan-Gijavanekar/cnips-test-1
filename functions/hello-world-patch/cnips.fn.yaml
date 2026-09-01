@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: Hello_World_Patch
+spec:
+    runtime: js
+    apiAccessRef: d716c681-9793-4091-b2b8-dfc97c831812
+    signatureVersion: v1
+    templateVersion: V1

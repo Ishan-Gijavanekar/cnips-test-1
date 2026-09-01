@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: go-schema-src
+spec:
+    type: source
+    sourceType: STANDARD
+    apiAccessRef: 74cdc5da-aa0b-442a-883e-56eaf3b9aa46

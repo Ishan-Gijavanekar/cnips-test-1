@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test-src-ttt
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: javascript
+    description: This is for the test
+    config:
+        test: test
+    apiAccessRef: 591607bd-727f-408e-8775-811b40461315
+    signatureVersion: v1

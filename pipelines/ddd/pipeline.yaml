@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: ddd
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: cidaas-delete-user-js-8c4d0a80
+          uses: transformation/js-apps-src@latest
+        - id: cidaas-delete-user-js-8c4d0a80
+          uses: transformation/cidaas-delete-user-js-8c4d0a80@latest

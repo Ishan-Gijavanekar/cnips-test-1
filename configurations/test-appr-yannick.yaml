@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 03ef16f5-6b1e-4b3b-a306-81d422802dc5
+    name: test-appr-yannick
+    description: testing approvement flow by yannick
+spec:
+    type: APIAccess
+    ref: 03ef16f5-6b1e-4b3b-a306-81d422802dc5
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

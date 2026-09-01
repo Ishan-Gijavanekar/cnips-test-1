@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: source-quota-exec-time
+spec:
+    type: source
+    language: golang
+    apiAccessRef: 12654308-7ca2-43b8-8afd-4b9a6815f40b
+    signatureVersion: v1

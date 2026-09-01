@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: '[Cspace]GenerateGroupCreationAndUserAssignmentPayload'
+spec:
+    type: transformation
+    language: golang
+    description: Creating the payload to create a user group and assign the newly created group to an existing user
+    signatureVersion: v2

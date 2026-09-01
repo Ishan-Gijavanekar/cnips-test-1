@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: TEST-GO-GET-APP_copy
+spec:
+    type: transformation
+    language: golang
+    config:
+        "12": "122"
+    signatureVersion: v1

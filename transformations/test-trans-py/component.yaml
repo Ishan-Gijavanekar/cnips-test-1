@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test-trans-py
+spec:
+    type: transformation
+    language: python
+    description: This is for the test
+    signatureVersion: v1

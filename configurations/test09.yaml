@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 27f187ca-317c-40c6-8161-857b2c364c02
+    name: test09
+spec:
+    type: APIAccess
+    ref: 27f187ca-317c-40c6-8161-857b2c364c02
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

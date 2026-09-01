@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: rating service
+spec:
+    type: source
+    sourceType: STANDARD
+    apiAccessRef: 41695003-353a-4c01-83d0-7231a817e713

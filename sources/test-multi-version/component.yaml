@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Test-Multi-Version
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: javascript
+    description: Testing multiple versions support
+    apiAccessRef: 74cdc5da-aa0b-442a-883e-56eaf3b9aa46
+    signatureVersion: v1

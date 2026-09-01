@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: go-ext-test001-374921ad
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: go-log-dest-001
+          uses: transformation/go-extractor-001@latest
+        - id: go-log-dest-001
+          uses: transformation/go-uppercase-001@1.0.0
+        - id: go-log-dest-001
+          uses: transformation/go-log-dest-001@1.0.0

@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: t-g-dest-js-templ
+spec:
+    type: destination
+    language: javascript
+    description: Test desc
+    signatureVersion: v3

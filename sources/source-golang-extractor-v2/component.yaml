@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Source-Golang-Extractor-v2
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: golang
+    description: Source-Golang-Extractor-v2
+    apiAccessRef: 01f7dbce-15b2-4b30-bcf5-77e8cff41725
+    signatureVersion: v2

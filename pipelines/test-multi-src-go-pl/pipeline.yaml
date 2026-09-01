@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test-multi-src-go-pl
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: test-multi-src-go-dest
+          uses: transformation/test-multi-source-go@latest
+        - id: test-multi-src-go-dest
+          uses: transformation/test-multi-src-go-dest@1.0.0

@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 48073671-ec2a-4f25-9e86-448a7c69306a
+    name: config gib test
+    description: this is a test desc
+spec:
+    type: KeyValue
+    key: X-A
+    value: test
+    ref: 48073671-ec2a-4f25-9e86-448a7c69306a
+    workspaceId: default
+    apiAccess:
+        apiAccessType: ""

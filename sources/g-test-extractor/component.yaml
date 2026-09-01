@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: g-test-extractor
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: golang
+    config:
+        s: s
+    apiAccessRef: b5f297c0-07c0-4bd8-9252-60497d27762e
+    signatureVersion: v1

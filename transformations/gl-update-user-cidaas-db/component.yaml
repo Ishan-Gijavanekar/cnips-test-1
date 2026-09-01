@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: GL_UPDATE_USER_CIDAAS_DB
+spec:
+    type: decision
+    language: javascript
+    signatureVersion: v1

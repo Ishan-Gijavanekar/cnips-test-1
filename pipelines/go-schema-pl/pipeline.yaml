@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: go-schema-pl
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: go-schema-dest
+          uses: transformation/go-schema-src@latest
+        - id: go-schema-dest
+          uses: transformation/go-schema-dest@2.0.0

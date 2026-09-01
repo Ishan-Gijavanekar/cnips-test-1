@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: "300620251"
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: javascript
+    description: "30062025"
+    config:
+        "1": '[REDACTED]'
+    apiAccessRef: 25d93fd2-2b92-4d73-82ac-8be6bab8bd49
+    signatureVersion: v1

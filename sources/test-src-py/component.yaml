@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: test-src-py
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: python
+    description: This is for the test
+    apiAccessRef: 7c07c63b-72c2-4259-89c3-10e676b25db6
+    signatureVersion: v1

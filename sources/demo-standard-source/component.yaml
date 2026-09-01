@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: Demo standard source
+spec:
+    type: source
+    sourceType: STANDARD
+    description: This is a demo standard source, connected to a single pipeline for triggering it.
+    apiAccessRef: f5d34c56-27c5-4e89-9afe-7dd99d1ad751

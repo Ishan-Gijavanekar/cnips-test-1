@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: ttt-2ac1e39a
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: js-var-test-c50eaea3
+          uses: transformation/ttt-c7bc7eec@latest
+        - id: js-var-test-c50eaea3
+          uses: transformation/js-var-test-c50eaea3@1.0.0

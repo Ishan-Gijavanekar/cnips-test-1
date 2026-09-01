@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 448f5d36-f623-4428-a37a-db71f2af3c45
+    name: CFG-USER-448f5d36-f623-4428-a37a-db71f2af3c45
+spec:
+    type: APIAccess
+    ref: 448f5d36-f623-4428-a37a-db71f2af3c45
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

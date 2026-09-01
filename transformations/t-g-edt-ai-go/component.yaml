@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: t-g-edt-ai-go
+spec:
+    type: decision
+    language: golang
+    config:
+        qw: qwe
+    signatureVersion: v2

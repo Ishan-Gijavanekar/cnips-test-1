@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: New Pipeline1
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: js-schema-dest
+          uses: transformation/a-e-j@latest
+        - id: js-schema-dest
+          uses: transformation/throw-error-tx@1.0.0
+        - id: js-schema-dest
+          uses: transformation/js-schema-dest@latest

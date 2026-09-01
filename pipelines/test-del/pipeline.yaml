@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: TEST-DEL
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: go-log-dest-001
+          uses: transformation/go-extractor-001@latest
+        - id: go-log-dest-001
+          uses: transformation/test-deletion@1.0.0
+        - id: go-log-dest-001
+          uses: transformation/go-log-dest-001@1.0.0

@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: b0ecd704-4b43-461c-a665-248650bc5c47
+    name: https://5806852315937720650%2eowasp%2eorg
+    description: Description Configurations
+spec:
+    type: APIAccess
+    ref: b0ecd704-4b43-461c-a665-248650bc5c47
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: app_9f3a2c7b1d84e6
+            client_secret: '[REDACTED]'
+            req_scopes: Automation Scope
+            wellknownUrl: https://dev.cnips.eu/components

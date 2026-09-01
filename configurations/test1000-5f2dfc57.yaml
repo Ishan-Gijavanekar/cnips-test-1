@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 6645c472-edcb-40c7-acc6-6c5a5f2dfc57
+    name: test1000-5f2dfc57
+    description: "123"
+spec:
+    type: APIAccess
+    ref: 6645c472-edcb-40c7-acc6-6c5a5f2dfc57
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

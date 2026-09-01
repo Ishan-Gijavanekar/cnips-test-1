@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: t-g-fn-val
+spec:
+    runtime: go
+    config:
+        s: s
+        "y": "y"
+    apiAccessRef: 983f7ceb-c47d-458f-a899-c656909e1fd9
+    signatureVersion: v2
+    templateVersion: V2

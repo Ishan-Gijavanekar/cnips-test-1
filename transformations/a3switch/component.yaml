@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: a3switch
+spec:
+    type: switch
+    language: javascript
+    signatureVersion: v1

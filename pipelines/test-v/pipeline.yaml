@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test v
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: just-log
+          uses: transformation/js-extractor-001@latest
+        - id: just-log
+          uses: transformation/just-log@1.0.0

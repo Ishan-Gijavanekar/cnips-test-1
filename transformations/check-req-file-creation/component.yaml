@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: check req file creation
+spec:
+    type: transformation
+    language: python
+    signatureVersion: v1

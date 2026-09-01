@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: g-test-standard
+spec:
+    type: source
+    sourceType: STANDARD
+    apiAccessRef: cb84c45c-396c-4ed2-bae1-7d5474b53bd9

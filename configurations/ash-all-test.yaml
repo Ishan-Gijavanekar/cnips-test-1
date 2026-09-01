@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: dcb65118-8fc3-48b9-b376-b6e5713c1bf1
+    name: ash-all-test
+    description: use everywhere
+spec:
+    type: APIAccess
+    ref: dcb65118-8fc3-48b9-b376-b6e5713c1bf1
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

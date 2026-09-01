@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: a1696cec-9491-480b-85d1-c4c5c2b80779
+    name: t-g-demo-paresh-totp
+spec:
+    type: APIAccess
+    ref: a1696cec-9491-480b-85d1-c4c5c2b80779
+    workspaceId: default
+    apiAccess:
+        apiAccessType: TOTP
+        totpDetails:
+            totp_placeholder: key
+            totp_placement: query
+            totpkey: 510a5898659dea01fef2e7950286d4432d2e60a93afb5b1a8ba5c93ffa4ba5897b5dd41969e994e528d8e5ca5b1d60cacbfc112fa0df7147e7831c7f9c1156c756906e349cd267e3f3097bc0b568c995

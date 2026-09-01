@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: eb548fe4-9292-4299-a451-2a558c77f14b
+    name: test123777
+spec:
+    type: APIAccess
+    ref: eb548fe4-9292-4299-a451-2a558c77f14b
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: 837fbf77-1d52-4cdb-97f5-59cfe67d87ea
+            client_secret: '[REDACTED]'
+            req_scopes: testwqe234234324
+            wellknownUrl: https://kube-nightlybuild-dev.cidaas.de/.well-known/openid-configuration

@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: a5e9b269-5e8e-4b3c-910e-324987dca692
+    name: aa
+spec:
+    type: APIAccess
+    ref: a5e9b269-5e8e-4b3c-910e-324987dca692
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: "1234"
+            client_secret: '[REDACTED]'
+            req_scopes: 1,2,3
+            wellknownUrl: http://localhost:3000/app/configurations/new

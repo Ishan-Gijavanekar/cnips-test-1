@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: TRANS-Go-V2
+spec:
+    type: transformation
+    language: golang
+    signatureVersion: v2

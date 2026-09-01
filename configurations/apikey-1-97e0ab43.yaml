@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: a8d3c4c4-bbc4-42a6-8555-38ee97e0ab43
+    name: apikey-1-97e0ab43
+    description: Simple APIKEY In Query
+spec:
+    type: APIAccess
+    ref: a8d3c4c4-bbc4-42a6-8555-38ee97e0ab43
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

@@ -1,0 +1,18 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: ash-all-js
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: ash-all-js
+          uses: transformation/ash-all-js@latest
+        - id: ash-all-js
+          uses: native/decision@1
+        - id: ash-all-js
+          uses: transformation/ash-js-1@1.0.0
+        - id: ash-all-js
+          uses: transformation/ash-js-2@1.0.0
+        - id: ash-all-js
+          uses: transformation/ash-all-js@1.0.0

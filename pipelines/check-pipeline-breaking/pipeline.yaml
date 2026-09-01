@@ -1,0 +1,75 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: check pipeline breaking
+spec:
+    trigger:
+        type: http
+    retry:
+        maxAttempts: 4
+        backoffSec: 60
+    steps:
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/freshdesk-with-code-src@latest
+        - id: gl-update-user-in-cidaas-dest
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/freshdesk-delete-contact-agent-xform@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/freshdesk-update-contact-agent-xform@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/freshdesk-create-contact-agent-xform@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest
+          uses: native/decision@1
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/fd-create-contact-xform@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/fd-create-agent-xform@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/fd-create-agent-xform@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/fd-dest@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/cidaas-update-group-js-4dcc2f11@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/fd-group-deleted-dest@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/fd-user-left-group-dest@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/fd-group-deleted-dest@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/fd-user-deleted-dest@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/fd-user-deleted-dest@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/fd-user-joined-group-dest@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/fd-group-created-dest@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/fd-user-left-group-dest@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/fd-user-updated-dest@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/fd-user-created-dest@1.0.0
+        - id: gl-update-user-in-cidaas-dest
+          uses: transformation/gl-update-user-in-cidaas-dest@1.0.0

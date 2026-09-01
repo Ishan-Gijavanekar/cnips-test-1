@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: kg-bd-tt-7
+spec:
+    type: transformation
+    language: golang
+    signatureVersion: v1

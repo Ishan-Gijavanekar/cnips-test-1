@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 61864a12-174c-4bbb-8cb8-a357be1f4c32
+    name: eee
+spec:
+    type: APIAccess
+    ref: 61864a12-174c-4bbb-8cb8-a357be1f4c32
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: migration-error
+spec:
+    runtime: go
+    config:
+        migration_error_key: ZmFjN2E3ZTYtMzU3Yi00MWU1LTk2ZjctNDZmZmZjZWUwZjM1OkQ1akJKUG5tRWx5cEpZd2NqNlNCbGc
+        table_base_url: https://dev.cnips.eu
+        tableId: aed9c41e-f3cb-45c8-ad39-bd3314eafb1e
+    signatureVersion: V2
+    templateVersion: V2

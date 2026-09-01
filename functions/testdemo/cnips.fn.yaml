@@ -1,0 +1,8 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: testdemo
+spec:
+    runtime: go
+    signatureVersion: v2
+    templateVersion: V2

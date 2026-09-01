@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 90a0227f-0d1b-46da-9cbc-4d1431038ae4
+    name: config copy test
+    description: description
+spec:
+    type: APIAccess
+    ref: 90a0227f-0d1b-46da-9cbc-4d1431038ae4
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: sassssasasda
+            client_secret: '[REDACTED]'
+            req_scopes: jsdfsik

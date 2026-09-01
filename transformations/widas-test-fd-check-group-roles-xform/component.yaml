@@ -1,0 +1,15 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: WIDAS_TEST_FD_CHECK_GROUP_ROLES_XFORM
+spec:
+    type: transformation
+    language: javascript
+    config:
+        FD_access_token: '[REDACTED]'
+        FD_baseURL: https://maxprojektwork.freshdesk.com/
+        FD_cidaasGroupCustomFieldForCompanyId: cidaasGroupCustomFieldForCompanyId
+        base_url: https://widas-test.cidaas.eu
+        contactRoles: TECHNICAL_ADMIN,TICKET_REPORTER
+        customerGroupType: cidaas-customer-grouptype
+    signatureVersion: v1

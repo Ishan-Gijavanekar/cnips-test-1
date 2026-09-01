@@ -1,0 +1,13 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 983f7ceb-c47d-458f-a899-c656909e1fd9
+    name: t-g-cn-apikey-2
+    description: sdfsdf
+spec:
+    type: APIAccess
+    ref: 983f7ceb-c47d-458f-a899-c656909e1fd9
+    workspaceId: default
+    apiAccess:
+        apiAccessType: APIKEY
+        apikeyDetails: '[REDACTED]'

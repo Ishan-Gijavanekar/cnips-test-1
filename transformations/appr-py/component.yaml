@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: appr-py
+spec:
+    type: approval
+    language: javascript
+    config:
+        email_from: innacy.raja@widas.in
+        sendgrid_api_key: '[REDACTED]'
+    signatureVersion: v3

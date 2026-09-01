@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 6c1180cd-b68c-401d-b883-5ea66c1d7e2a
+    name: zj{#5102*2789}zj
+    description: Description Configurations
+spec:
+    type: APIAccess
+    ref: 6c1180cd-b68c-401d-b883-5ea66c1d7e2a
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: app_9f3a2c7b1d84e6
+            client_secret: '[REDACTED]'
+            req_scopes: Automation Scope
+            wellknownUrl: https://dev.cnips.eu/components

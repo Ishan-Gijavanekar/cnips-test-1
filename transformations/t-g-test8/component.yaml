@@ -1,0 +1,9 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: t-g-test8
+spec:
+    type: transformation
+    language: golang
+    description: sd
+    signatureVersion: v2

@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: Cidaas - Create Group JS-fd5e4eab-c736-41d9-ae8c-76a97dadd773-1
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: javascript-ac784e1e-8561-4653-aa1e-e3c3807ba963
+          uses: transformation/javascript-c427e48a-dfd0-4c21-aca8-98690b06ab33@latest
+        - id: javascript-ac784e1e-8561-4653-aa1e-e3c3807ba963
+          uses: transformation/javascript-ac784e1e-8561-4653-aa1e-e3c3807ba963@latest

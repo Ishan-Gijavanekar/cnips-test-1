@@ -1,0 +1,10 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: retry-go-src
+spec:
+    type: source
+    sourceType: EXTRACTOR
+    language: golang
+    apiAccessRef: 8dc47c84-bf38-49a9-95e0-46d1dec563a2
+    signatureVersion: v2

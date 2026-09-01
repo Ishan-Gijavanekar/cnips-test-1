@@ -1,0 +1,16 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: b34dcd28-c826-4e1a-b0c7-f3071d296256
+    name: test-creds
+spec:
+    type: APIAccess
+    ref: b34dcd28-c826-4e1a-b0c7-f3071d296256
+    workspaceId: default
+    apiAccess:
+        apiAccessType: CIDAAS_OAUTH2
+        oAuthDetails:
+            client_id: d4ba1ac1-a5eb-4fd5-8bd5-9eb26a51b8a0
+            client_secret: '[REDACTED]'
+            req_scopes: email
+            wellknownUrl: https://kube-nightlybuild-dev.cidaas.de/.well-known/openid-configuration

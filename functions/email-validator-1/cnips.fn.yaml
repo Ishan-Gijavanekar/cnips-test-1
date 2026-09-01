@@ -1,0 +1,11 @@
+apiVersion: cnips.io/v1
+kind: Function
+metadata:
+    name: email-validator(1)
+spec:
+    runtime: go
+    description: Validates an email address from the request payload against a configurable regex pattern and returns a validity flag.
+    config:
+        emailregex: ^[^\s@]+@[^\s@]+\.[^\s@]+$
+    signatureVersion: v2
+    templateVersion: V2

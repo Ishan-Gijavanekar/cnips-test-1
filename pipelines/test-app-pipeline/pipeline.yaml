@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test-app-pipeline
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: cidaas-delete-user-go-845c213e
+          uses: transformation/go-schema-src@latest
+        - id: cidaas-delete-user-go-845c213e
+          uses: transformation/cidaas-delete-user-go-845c213e@1.0.0

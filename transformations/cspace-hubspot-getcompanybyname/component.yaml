@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Component
+metadata:
+    name: '[cspace]Hubspot_GetCompanyByName'
+spec:
+    type: transformation
+    language: golang
+    description: Based on the company_name extracted from customFields of an user get the company info from hubspot and add it to the event.
+    config:
+        hubspotBaseURL: '[REDACTED]'
+        hubspotToken: '[REDACTED]'
+    signatureVersion: v2

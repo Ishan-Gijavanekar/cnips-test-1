@@ -1,0 +1,23 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: ash test 1111
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: a1
+          uses: transformation/test1@latest
+        - id: a1
+          uses: native/decision@1
+        - id: a1
+          uses: native/switch@1
+        - id: a1
+          uses: transformation/a3@latest
+        - id: a1
+          uses: transformation/a-2@latest
+        - id: a1
+          uses: transformation/a1@latest
+    variables:
+        - name: c34ac7f0-c62f-440f-b6d8-e93e09cd0f64
+          ref: c34ac7f0-c62f-440f-b6d8-e93e09cd0f64

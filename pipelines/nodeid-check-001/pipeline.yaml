@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: NodeID-Check-001
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: rating-dest
+          uses: transformation/rating-service@latest
+        - id: rating-dest
+          uses: transformation/rating-dest@latest

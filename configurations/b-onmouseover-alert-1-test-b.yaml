@@ -1,0 +1,17 @@
+apiVersion: cnips.io/v1
+kind: Configuration
+metadata:
+    id: 92c2af40-76fe-4534-98fb-e1aca83d4ab5
+    name: <b onMouseOver=alert(1);>test</b>
+    description: Description Configurations
+spec:
+    type: APIAccess
+    ref: 92c2af40-76fe-4534-98fb-e1aca83d4ab5
+    workspaceId: default
+    apiAccess:
+        apiAccessType: GEN_OAUTH2
+        oAuthDetails:
+            client_id: app_9f3a2c7b1d84e6
+            client_secret: '[REDACTED]'
+            req_scopes: Automation Scope
+            wellknownUrl: https://dev.cnips.eu/components

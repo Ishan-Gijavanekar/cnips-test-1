@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: New Pipeline 200
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: go-schema-dest
+          uses: transformation/dummy@latest
+        - id: go-schema-dest
+          uses: transformation/test-version-creation-go@1.0.0
+        - id: go-schema-dest
+          uses: transformation/go-schema-dest@2.0.0

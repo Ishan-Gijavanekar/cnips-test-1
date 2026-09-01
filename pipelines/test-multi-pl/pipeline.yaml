@@ -1,0 +1,12 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: test-multi-pl
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: test-a013044a
+          uses: transformation/src-special-char-rename@latest
+        - id: test-a013044a
+          uses: transformation/test-a013044a@latest

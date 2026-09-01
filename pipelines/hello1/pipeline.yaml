@@ -1,0 +1,18 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: hello1
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: javascript-82bf1cd0-cb6a-4183-a473-ff361d3695d0
+          uses: transformation/src-err-processing-c24db2b2@latest
+        - id: javascript-82bf1cd0-cb6a-4183-a473-ff361d3695d0
+          uses: native/decision@1
+        - id: javascript-82bf1cd0-cb6a-4183-a473-ff361d3695d0
+          uses: transformation/cidaas-get-group-js-38f79ab6@latest
+        - id: javascript-82bf1cd0-cb6a-4183-a473-ff361d3695d0
+          uses: transformation/dest1-err-processing-ba353251@latest
+        - id: javascript-82bf1cd0-cb6a-4183-a473-ff361d3695d0
+          uses: transformation/javascript-82bf1cd0-cb6a-4183-a473-ff361d3695d0@latest

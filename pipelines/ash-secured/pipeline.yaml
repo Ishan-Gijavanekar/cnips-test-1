@@ -1,0 +1,14 @@
+apiVersion: cnips.io/v1
+kind: Pipeline
+metadata:
+    name: ash secured
+spec:
+    trigger:
+        type: http
+    steps:
+        - id: test-ext-dest
+          uses: transformation/js-extractor-001@latest
+        - id: test-ext-dest
+          uses: transformation/throw-error-tx@1.0.0
+        - id: test-ext-dest
+          uses: transformation/test-ext-dest@1.0.0
