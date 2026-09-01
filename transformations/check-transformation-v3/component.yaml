@@ -5,5 +5,5 @@ metadata:
 spec:
     type: transformation
     language: javascript
-    description: This is just to test
+    description: This is just to test and needs to be updated
     signatureVersion: v3
